@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CraftPricing</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-git.css">
+		<script src="http://code.jquery.com/qunit/qunit-git.js"></script>
+		<script src="js/craftpricing.js"></script>
+		<script>
+			$.getJSON('js/recipes.js', function(json){
+
+				CraftPricing.load(json);
+
+				var test_name = "fishingrod";
+				var item = CraftPricing.getItem( test_name );
+				test(test_name, function() {
+				  equal( item.sell, 61.875);
+				  equal( item.buy, 40.9375);
+				});
+
+				var test_name = "stick";
+				var item = CraftPricing.getItem( test_name );
+				test(test_name, function() {
+				  equal( item.sell, 2.5);
+				  equal( item.buy, 1.25);
+				});
+
+				var test_name = "glass";
+				var item = CraftPricing.getItem( test_name );
+				test(test_name, function() {
+				  equal( item.sell, 0.9375);
+				  equal( item.buy, 0.78125);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1 id="qunit-header">QUnit example</h1>
+		<h2 id="qunit-banner"></h2>
+		<div id="qunit-testrunner-toolbar"></div>
+		<h2 id="qunit-userAgent"></h2>
+		<ol id="qunit-tests"></ol>
+		<div id="qunit-fixture">test markup, will be hidden</div>
+	</body>
+</html>

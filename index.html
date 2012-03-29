@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CraftPricing</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="js/craftpricing.js"></script>
+		<script>
+			$.getJSON('js/recipes.js', function(json){
+				CraftPricing.generate(json, formatterMysql);
+			});
+			
+			// An example formatter, printing insert sql for mysql
+			var formatterMysql = function( item ){
+				var sql = "INSERT INTO `shops` (`odditem_name`, `buy_price`, `sell_price`) VALUES (`"+item.name+"`,`"+item.buy+"`,`"+item.sell+"`);";
+				document.write(sql+"<br>");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
