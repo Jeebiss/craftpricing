@@ -69,21 +69,17 @@ var CraftPricing = {
 	 * for data with recipes.
 	 */
 	sanity_check: function(){
-		for(item in this._json){
-			if (this._json.hasOwnProperty(item)){
-				var rsp_item = this._json[item];
-				if(typeof rsp_item === "object" && rsp_item != null){
-					if(typeof rsp_item.buy !== "undefined" && rsp_item.recipe.length > 0){
-						console.log("Item uses recipe, yet has a 'buy' field: " + item + " " + rsp_item.buy);
-						// test(item, function() {
-						// 	equal( rsp_item.recipe.length, 0);
-						// });
-					}
-					if(typeof rsp_item.sell !== "undefined" && rsp_item.recipe.length > 0){
-						console.log("Item uses recipe, yet has a 'sell' field: " + item + " " + rsp_item.sell);
+		test("Sanity Check", function(){
+			for(item in CraftPricing._json){
+				if (CraftPricing._json.hasOwnProperty(item)){
+					var rsp_item = CraftPricing._json[item];
+					if(typeof rsp_item === "object" && rsp_item != null){
+						if(typeof rsp_item.buy !== "undefined" || typeof rsp_item.sell !== "undefined"){
+							equal( rsp_item.recipe.length, 0, "Checking " + item + ". Ensuring buy/sell fields not present if recipes are.");
+						}
 					}
 				}
 			}
-		}
+		});
 	}
 }

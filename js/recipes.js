@@ -1768,8 +1768,6 @@
    "bowl":{
       "item_id":"281",
       "sub_id":"0",
-      "sell":"15",
-      "buy":"10",
       "alias":"bowl",
       "name":"bowl",
       "quantity":4,
@@ -1780,8 +1778,6 @@
    "mushroomsoup":{
       "item_id":"282",
       "sub_id":"0",
-      "sell":"55",
-      "buy":"30",
       "alias":"mushroomsoup",
       "name":"mushroom soup",
       "quantity":1,
@@ -1826,8 +1822,6 @@
    "goldaxe":{
       "item_id":"286",
       "sub_id":"0",
-      "sell":"788",
-      "buy":"725",
       "alias":"goldaxe",
       "name":"gold axe",
       "quantity":1,
@@ -1954,8 +1948,6 @@
    "bread":{
       "item_id":"297",
       "sub_id":"0",
-      "sell":"12",
-      "buy":"6",
       "alias":"bread",
       "name":"bread",
       "quantity":1,
@@ -2144,8 +2136,6 @@
    "goldchest":{
       "item_id":"315",
       "sub_id":"0",
-      "sell":"2080",
-      "buy":"1920",
       "alias":"goldchest",
       "name":"gold chestplate",
       "quantity":1,
@@ -2156,8 +2146,6 @@
    "goldleggings":{
       "item_id":"316",
       "sub_id":"0",
-      "sell":"1820",
-      "buy":"1680",
       "alias":"goldleggings",
       "name":"gold leggings",
       "quantity":1,
@@ -2168,8 +2156,6 @@
    "goldboots":{
       "item_id":"317",
       "sub_id":"0",
-      "sell":"1040",
-      "buy":"960",
       "alias":"goldboots",
       "name":"gold boots",
       "quantity":1,
@@ -2344,8 +2330,6 @@
    "boat":{
       "item_id":"333",
       "sub_id":"0",
-      "sell":"38",
-      "buy":"25",
       "alias":"boat",
       "name":"boat",
       "quantity":1,
