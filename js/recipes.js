@@ -2382,7 +2382,7 @@
       "name":"clay brick",
       "quantity":1,
       "recipe":[
-	  	{"alias":"clayball", "quantity": 1},
+	  	{"alias":"clayballs", "quantity": 1},
 		{"alias":"coal", "quantity": 0.125}
       ]
    },
