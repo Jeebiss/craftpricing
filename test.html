@@ -10,32 +10,85 @@
 			$.getJSON('js/recipes.js', function(json){
 
 				CraftPricing.load(json);
+				// CraftPricing.sanity_check();
 
-				var test_name = "fishingrod";
-				var item = CraftPricing.getItem( test_name );
-				test(test_name, function() {
-				  equal( item.sell, 61.875);
-				  equal( item.buy, 40.9375);
+				test("fishingrod", function() {
+					var item = CraftPricing.getItem( "fishingrod" );
+					equal( item.sell, 61.875);
+					equal( item.buy, 40.9375);
 				});
 
-				var test_name = "stick";
-				var item = CraftPricing.getItem( test_name );
-				test(test_name, function() {
-				  equal( item.sell, 2.5);
-				  equal( item.buy, 1.25);
+				test("stick", function() {
+					var item2 = CraftPricing.getItem( "stick" );
+				  	equal( item2.sell, 2.5);
+				  	equal( item2.buy, 1.25);
+				});
+				
+				test("glass", function() {
+					var item = CraftPricing.getItem( "glass" );
+					equal( item.sell, 0.9375);
+					equal( item.buy, 0.78125);
 				});
 
-				var test_name = "glass";
-				var item = CraftPricing.getItem( test_name );
-				test(test_name, function() {
-				  equal( item.sell, 0.9375);
-				  equal( item.buy, 0.78125);
+				test("lapisblock", function() {
+					var item = CraftPricing.getItem( "lapisblock" );
+					equal( item.sell, 630);
+					equal( item.buy, 540);
 				});
+
+				test("goldblock", function() {
+					var item = CraftPricing.getItem( "goldblock" );
+					equal( item.sell, 2340);
+					equal( item.buy, 2160);
+				});
+
+				test("torch", function() {
+					var item = CraftPricing.getItem( "torch" );
+					equal( item.sell, 2.4375);
+					equal( item.buy, 1.625);
+				});
+
+				test("enchantmenttable", function() {
+					var item = CraftPricing.getItem( "enchantmenttable" );
+					equal( item.sell, 1121.875);
+					equal( item.buy, 961.40625);
+				});
+
+				test("diamondpickaxe", function() {
+					var item = CraftPricing.getItem( "diamondpickaxe" );
+					equal( item.sell, 1201.25);
+					equal( item.buy, 1080.625);
+				});
+
+				test("claybrick", function() {
+					var item = CraftPricing.getItem( "claybrick" );
+					equal( item.sell, 10.9);
+					equal( item.buy, 10.6);
+				});
+
+				test("clock", function() {
+					var item = CraftPricing.getItem( "clock" );
+					equal( item.sell, 1052.5);
+					equal( item.buy, 967.5);
+				});
+
+				test("purple", function() {
+					var item = CraftPricing.getItem( "purple" );
+					equal( item.sell, 35.155);
+					equal( item.buy, 30.075);
+				});
+
+				test("cake", function() {
+					var item = CraftPricing.getItem( "cake" );
+					equal( item.sell, 618.25);
+					equal( item.buy, 516.9375);
+				});
+
 			});
 		</script>
 	</head>
 	<body>
-		<h1 id="qunit-header">QUnit example</h1>
+		<h1 id="qunit-header">CraftPricing QUnit</h1>
 		<h2 id="qunit-banner"></h2>
 		<div id="qunit-testrunner-toolbar"></div>
 		<h2 id="qunit-userAgent"></h2>

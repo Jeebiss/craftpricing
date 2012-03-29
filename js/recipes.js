@@ -316,8 +316,6 @@
    "lapisblock":{
       "item_id":"22",
       "sub_id":"0",
-      // "sell":"630",
-      // "buy":"540",
       "alias":"lapisblock",
       "name":"lapislazuli block",
       "quantity":1,
@@ -374,8 +372,6 @@
    "noteblock":{
       "item_id":"25",
       "sub_id":"0",
-      "sell":"72",
-      "buy":"47",
       "alias":"noteblock",
       "name":"note block",
       "quantity":1,
@@ -720,8 +716,6 @@
    "goldblock":{
       "item_id":"41",
       "sub_id":"0",
-      // "sell":"2340",
-      // "buy":"2160",
       "alias":"goldblock",
       "name":"gold block",
       "quantity":1,
@@ -732,8 +726,6 @@
    "ironblock":{
       "item_id":"42",
       "sub_id":"0",
-      "sell":"585",
-      "buy":"495",
       "alias":"ironblock",
       "name":"iron block",
       "quantity":1,
@@ -764,8 +756,6 @@
    "dbrickslab":{
       "item_id":"43",
       "sub_id":"4",
-      "sell":"44",
-      "buy":"28",
       "alias":"dbrickslab",
       "name":"double brick slab",
       "quantity":1,
@@ -898,7 +888,7 @@
    "mossycobble":{
       "item_id":"48",
       "sub_id":"0",
-      "sell":"3.125",
+      "sell":"30.125",
       "buy":"2.5",
       "alias":"mossycobble",
       "name":"mossy cobblestone",
@@ -922,8 +912,6 @@
    "torch":{
       "item_id":"50",
       "sub_id":"0",
-      // "sell":"2.4375",
-      // "buy":"1.625",
       "alias":"torch",
       "name":"torch",
       "quantity":4,
@@ -1134,7 +1122,7 @@
       "name":"clayblock",
       "quantity":1,
       "recipe":[
-// @todo
+
       ]
    },
    "jukebox":{
@@ -1151,13 +1139,11 @@
    "fence":{
       "item_id":"85",
       "sub_id":"0",
-      "sell":"11.5",
-      "buy":"7.5",
       "alias":"fence",
       "name":"fence",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+	  	{"alias":"stick","quantity":6}
       ]
    },
    "pumpkin":{
@@ -1199,37 +1185,32 @@
    "glowstone":{
       "item_id":"89",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"4",
       "alias":"glowstone",
       "name":"glowstone",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"glowstonedust","quantity":4}
       ]
    },
    "jackolantern":{
       "item_id":"91",
       "sub_id":"0",
-      "sell":"49",
-      "buy":"20",
       "alias":"jackolantern",
       "name":"jack-o-lantern",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"pumpkin","quantity":1},
+		{"alias":"torch","quantity":1}
       ]
    },
    "trapdoor":{
       "item_id":"96",
       "sub_id":"0",
-      "sell":"22.5",
-      "buy":"15",
       "alias":"trapdoor",
       "name":"trapdoor",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+	  	{"alias":"woodplanks","quantity":6}
       ]
    },
    "silverfish":{
@@ -1272,7 +1253,7 @@
       "item_id":"98",
       "sub_id":"3",
       "sell":"1.75",
-      "buy":"1.125",
+      "buy":"10.125",
       "alias":"circlestonebrick",
       "name":"circle stone brick",
       "quantity":1,
@@ -1284,7 +1265,7 @@
       "item_id":"98",
       "sub_id":"0",
       "sell":"1.75",
-      "buy":"1.125",
+      "buy":"10.125",
       "alias":"stonebrick",
       "name":"stone brick",
       "quantity":1,
@@ -1319,25 +1300,21 @@
    "ironbars":{
       "item_id":"101",
       "sub_id":"0",
-      "sell":"24.375",
-      "buy":"20.625",
       "alias":"ironbars",
       "name":"iron bars",
-      "quantity":1,
+      "quantity":16,
       "recipe":[
-
+	  	{"alias":"ironingots","quantity":6}
       ]
    },
    "glasspane":{
       "item_id":"102",
       "sub_id":"0",
-      "sell":"0.5625",
-      "buy":"0.375",
       "alias":"glasspane",
       "name":"glass pane",
-      "quantity":1,
+      "quantity":16,
       "recipe":[
-
+	  	{"alias":"glass","quantity":6}
       ]
    },
    "melonblock":{
@@ -1367,37 +1344,32 @@
    "fencegate":{
       "item_id":"107",
       "sub_id":"0",
-      "sell":"30",
-      "buy":"20",
       "alias":"fencegate",
       "name":"fence gate",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"stick","quantity":4},
+		{"alias":"woodplanks","quantity":2}
       ]
    },
    "brickstairs":{
       "item_id":"108",
       "sub_id":"0",
-      "sell":"66",
-      "buy":"63",
       "alias":"brickstairs",
       "name":"brick stairs",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+	  	{"alias":"brickblock","quantity":6}
       ]
    },
    "stonebrickstairs":{
       "item_id":"109",
       "sub_id":"0",
-      "sell":"2.625",
-      "buy":"1.6875",
       "alias":"stonebrickstairs",
       "name":"stone brick stairs",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+	  	{"alias":"stonebrick","quantity":6}
       ]
    },
    "mycelium":{
@@ -1439,25 +1411,21 @@
    "nbrickfence":{
       "item_id":"113",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"3",
       "alias":"nbrickfence",
       "name":"nether fence",
-      "quantity":1,
+      "quantity":6,
       "recipe":[
-
+	  	{"alias":"netherbrick","quantity":6}
       ]
    },
    "nbrickstairs":{
       "item_id":"114",
       "sub_id":"0",
-      "sell":"7.5",
-      "buy":"4.5",
       "alias":"nbrickstairs",
       "name":"netherbrick stairs",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+	  	{"alias":"netherbrick","quantity":6}
       ]
    },
    "netherwart":{
@@ -1475,13 +1443,13 @@
    "enchantmenttable":{
       "item_id":"116",
       "sub_id":"0",
-      "sell":"1125",
-      "buy":"964",
       "alias":"enchantmenttable",
       "name":"enchantment table",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"obsidian","quantity":4},
+		{"alias":"diamond","quantity":2},
+		{"alias":"book","quantity":1}
       ]
    },
    "endstone":{
@@ -1499,61 +1467,56 @@
    "redstonelamp":{
       "item_id":"123",
       "sub_id":"0",
-      "sell":"17.75",
-      "buy":"11.5",
       "alias":"redstonelamp",
       "name":"redstone lamp",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"glowstone","quantity":1},
+		{"alias":"redstone","quantity":4}
       ]
    },
    "ironspade":{
       "item_id":"256",
       "sub_id":"0",
-      "sell":"85",
-      "buy":"75",
       "alias":"ironspade",
       "name":"iron spade",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot","quantity":1},
+		{"alias":"stick","quantity":2}
       ]
    },
    "ironpickaxe":{
       "item_id":"257",
       "sub_id":"0",
-      "sell":"205",
-      "buy":"185",
       "alias":"ironpickaxe",
       "name":"iron pickaxe",
       "quantity":1,
       "recipe":[
-
+  		{"alias":"ironingot","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "ironaxe":{
       "item_id":"258",
       "sub_id":"0",
-      "sell":"205",
-      "buy":"185",
       "alias":"ironaxe",
       "name":"iron axe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"ironingot","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "lighter":{
       "item_id":"259",
       "sub_id":"0",
-      "sell":"68",
-      "buy":"57",
       "alias":"lighter",
       "name":"flint and steel",
       "quantity":1,
       "recipe":[
-
+		{"alias":"ironingot","quantity":1},
+		{"alias":"flint","quantity":1}
       ]
    },
    "apple":{
@@ -1571,25 +1534,24 @@
    "bow":{
       "item_id":"261",
       "sub_id":"0",
-      "sell":"95",
-      "buy":"80",
       "alias":"bow",
       "name":"bow",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"stick","quantity":3},
+		{"alias":"string","quantity":3}
       ]
    },
    "arrow":{
       "item_id":"262",
       "sub_id":"0",
-      "sell":"11.5",
-      "buy":"8.75",
       "alias":"arrow",
       "name":"arrow",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+	  	{"alias":"flint","quantity":1},
+		{"alias":"stick","quantity":1},
+		{"alias":"feather","quantity":1}
       ]
    },
    "coal":{
@@ -1607,13 +1569,11 @@
    "charcoal":{
       "item_id":"263",
       "sub_id":"1",
-      "sell":"15",
-      "buy":"10",
       "alias":"charcoal",
       "name":"charcoal",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"log","quantity":2}
       ]
    },
    "diamond":{
@@ -1655,157 +1615,144 @@
    "ironsword":{
       "item_id":"267",
       "sub_id":"0",
-      "sell":"135",
-      "buy":"113",
       "alias":"ironsword",
       "name":"iron sword",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot","quantity":2},
+		{"alias":"stick","quantity":1}
       ]
    },
    "woodsword":{
       "item_id":"268",
       "sub_id":"0",
-      "sell":"20",
-      "buy":"15",
       "alias":"woodsword",
       "name":"wood sword",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"woodplanks","quantity":2},
+		{"alias":"stick","quantity":1}
       ]
    },
    "woodspade":{
       "item_id":"269",
       "sub_id":"0",
-      "sell":"20",
-      "buy":"15",
       "alias":"woodspade",
       "name":"wood spade",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"woodplanks","quantity":1},
+		{"alias":"stick","quantity":2}
       ]
    },
    "woodpickaxe":{
       "item_id":"270",
       "sub_id":"0",
-      "sell":"45",
-      "buy":"35",
       "alias":"woodpickaxe",
       "name":"wood pickaxe",
       "quantity":1,
       "recipe":[
-
+  		{"alias":"woodplanks","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "woodaxe":{
       "item_id":"271",
       "sub_id":"0",
-      "sell":"45",
-      "buy":"35",
       "alias":"woodaxe",
       "name":"wood axe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"woodplanks","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "stonesword":{
       "item_id":"272",
       "sub_id":"0",
-      "sell":"6",
-      "buy":"4",
       "alias":"stonesword",
       "name":"stone sword",
       "quantity":1,
       "recipe":[
-
+		{"alias":"cobble","quantity":3},
+		{"alias":"stick","quantity":1}
       ]
    },
    "stonespade":{
       "item_id":"273",
       "sub_id":"0",
-      "sell":"8",
-      "buy":"6",
       "alias":"stonespade",
       "name":"stone spade",
       "quantity":1,
       "recipe":[
-
+		{"alias":"cobble","quantity":1},
+		{"alias":"stick","quantity":2}
       ]
    },
    "stonepickaxe":{
       "item_id":"274",
       "sub_id":"0",
-      "sell":"11",
-      "buy":"8",
       "alias":"stonepickaxe",
       "name":"stone pickaxe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"cobble","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "stoneaxe":{
       "item_id":"275",
       "sub_id":"0",
-      "sell":"11",
-      "buy":"8",
       "alias":"stoneaxe",
       "name":"stone axe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"cobble","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "diamondsword":{
       "item_id":"276",
       "sub_id":"0",
-      "sell":"804",
-      "buy":"723",
       "alias":"diamondsword",
       "name":"diamond sword",
       "quantity":1,
       "recipe":[
-
+		{"alias":"diamond","quantity":2},
+		{"alias":"stick","quantity":1}
       ]
    },
    "diamondspade":{
       "item_id":"277",
       "sub_id":"0",
-      "sell":"420",
-      "buy":"380",
       "alias":"diamondspade",
       "name":"diamond spade",
       "quantity":1,
       "recipe":[
-
+		{"alias":"diamond","quantity":1},
+		{"alias":"stick","quantity":2}
       ]
    },
    "diamondpickaxe":{
       "item_id":"278",
       "sub_id":"0",
-      "sell":"1220",
-      "buy":"1100",
       "alias":"diamondpickaxe",
       "name":"diamond pickaxe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"diamond","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "diamondaxe":{
       "item_id":"279",
       "sub_id":"0",
-      "sell":"1220",
-      "buy":"1100",
       "alias":"diamondaxe",
       "name":"diamond axe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"diamond","quantity":3},
+		{"alias":"stick","quantity":2}
       ]
    },
    "stick":{
@@ -1825,9 +1772,9 @@
       "buy":"10",
       "alias":"bowl",
       "name":"bowl",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+	  	{"alias":"woodplanks", "quantity": 3}
       ]
    },
    "mushroomsoup":{
@@ -1839,43 +1786,41 @@
       "name":"mushroom soup",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"brownmushroom", "quantity": 1},
+		{"alias":"bowl", "quantity": 1}
       ]
    },
    "goldsword":{
       "item_id":"283",
       "sub_id":"0",
-      "sell":"523",
-      "buy":"483",
       "alias":"goldsword",
       "name":"golden sword",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 2},
+		{"alias":"stick", "quantity": 1}
       ]
    },
    "goldspade":{
       "item_id":"284",
       "sub_id":"0",
-      "sell":"268",
-      "buy":"245",
       "alias":"goldspade",
       "name":"gold spade",
       "quantity":1,
       "recipe":[
-
+  		{"alias":"goldingot", "quantity": 1},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "goldpickaxe":{
       "item_id":"285",
       "sub_id":"0",
-      "sell":"788",
-      "buy":"725",
       "alias":"goldpickaxe",
       "name":"gold pickaxe",
       "quantity":1,
       "recipe":[
-
+  		{"alias":"goldingot", "quantity": 3},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "goldaxe":{
@@ -1887,7 +1832,8 @@
       "name":"gold axe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"goldingot", "quantity": 3},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "string":{
@@ -1929,61 +1875,56 @@
    "woodhoe":{
       "item_id":"290",
       "sub_id":"0",
-      "sell":"30",
-      "buy":"25",
       "alias":"woodhoe",
       "name":"wood hoe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"woodplanks", "quantity": 2},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "stonehoe":{
       "item_id":"291",
       "sub_id":"0",
-      "sell":"10",
-      "buy":"7",
       "alias":"stonehoe",
       "name":"stone hoe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"cobble", "quantity": 2},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "ironhoe":{
       "item_id":"292",
       "sub_id":"0",
-      "sell":"140",
-      "buy":"120",
       "alias":"ironhoe",
       "name":"iron hoe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"ironingot", "quantity": 2},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "diamondhoe":{
       "item_id":"293",
       "sub_id":"0",
-      "sell":"809",
-      "buy":"725",
       "alias":"diamondhoe",
       "name":"diamond hoe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"diamond", "quantity": 2},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "goldhoe":{
       "item_id":"294",
       "sub_id":"0",
-      "sell":"528",
-      "buy":"485",
       "alias":"goldhoe",
       "name":"gold hoe",
       "quantity":1,
       "recipe":[
-
+		{"alias":"goldingot", "quantity": 2},
+		{"alias":"stick", "quantity": 2}
       ]
    },
    "seeds":{
@@ -2019,55 +1960,47 @@
       "name":"bread",
       "quantity":1,
       "recipe":[
-
+		{"alias":"wheat", "quantity": 3}
       ]
    },
    "leatherhelmet":{
       "item_id":"298",
       "sub_id":"0",
-      "sell":"200",
-      "buy":"100",
       "alias":"leatherhelmet",
       "name":"leather helmet",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"leather", "quantity": 5}
       ]
    },
    "leatherchest":{
       "item_id":"299",
       "sub_id":"0",
-      "sell":"320",
-      "buy":"160",
       "alias":"leatherchest",
       "name":"leather chestplate",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"leather", "quantity": 8}
       ]
    },
    "leatherleggings":{
       "item_id":"300",
       "sub_id":"0",
-      "sell":"280",
-      "buy":"140",
       "alias":"leatherleggings",
       "name":"leather leggings",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"leather", "quantity": 7}
       ]
    },
    "leatherboots":{
       "item_id":"301",
       "sub_id":"0",
-      "sell":"160",
-      "buy":"80",
       "alias":"leatherboots",
       "name":"leather boots",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"leather", "quantity": 4}
       ]
    },
    "chainhelmet":{
@@ -2121,109 +2054,91 @@
    "ironhelmet":{
       "item_id":"306",
       "sub_id":"0",
-      "sell":"325",
-      "buy":"275",
       "alias":"ironhelmet",
       "name":"iron helmet",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 5}
       ]
    },
    "ironchest":{
       "item_id":"307",
       "sub_id":"0",
-      "sell":"520",
-      "buy":"440",
       "alias":"ironchest",
       "name":"iron chestplate",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 8}
       ]
    },
    "ironleggings":{
       "item_id":"308",
       "sub_id":"0",
-      "sell":"455",
-      "buy":"385",
       "alias":"ironleggings",
       "name":"iron leggings",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 7}
       ]
    },
    "ironboots":{
       "item_id":"309",
       "sub_id":"0",
-      "sell":"260",
-      "buy":"220",
       "alias":"ironboots",
       "name":"iron boots",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 4}
       ]
    },
    "diamondhelmet":{
       "item_id":"310",
       "sub_id":"0",
-      "sell":"2000",
-      "buy":"1800",
       "alias":"diamondhelmet",
       "name":"diamond helmet",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"diamond", "quantity": 5}
       ]
    },
    "diamondchest":{
       "item_id":"311",
       "sub_id":"0",
-      "sell":"3200",
-      "buy":"2880",
       "alias":"diamondchest",
       "name":"diamond chestplate",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"diamond", "quantity": 8}
       ]
    },
    "diamondleggings":{
       "item_id":"312",
       "sub_id":"0",
-      "sell":"2800",
-      "buy":"2520",
       "alias":"diamondleggings",
       "name":"diamond leggings",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"diamond", "quantity": 7}
       ]
    },
    "diamondboots":{
       "item_id":"313",
       "sub_id":"0",
-      "sell":"1600",
-      "buy":"1440",
       "alias":"diamondboots",
       "name":"diamond boots",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"diamond", "quantity": 4}
       ]
    },
    "goldhelmet":{
       "item_id":"314",
       "sub_id":"0",
-      "sell":"1300",
-      "buy":"1200",
       "alias":"goldhelmet",
       "name":"gold helmet",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 5}
       ]
    },
    "goldchest":{
@@ -2235,7 +2150,7 @@
       "name":"gold chestplate",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 8}
       ]
    },
    "goldleggings":{
@@ -2247,7 +2162,7 @@
       "name":"gold leggings",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 7}
       ]
    },
    "goldboots":{
@@ -2259,7 +2174,7 @@
       "name":"gold boots",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 4}
       ]
    },
    "flint":{
@@ -2289,109 +2204,95 @@
    "cookedpork":{
       "item_id":"320",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"4",
       "alias":"cookedpork",
       "name":"cooked porkchop",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"rawporkchop", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "painting":{
       "item_id":"321",
       "sub_id":"0",
-      "sell":"31.25",
-      "buy":"20.62",
       "alias":"painting",
       "name":"painting",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"stick", "quantity": 9},
+		{"alias":"wool", "quantity": 1}
       ]
    },
    "goldapple":{
       "item_id":"322",
       "sub_id":"0",
-      "sell":"282",
-      "buy":"254",
       "alias":"goldapple",
       "name":"golden apple",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"apple", "quantity": 1},
+		{"alias":"goldnugget", "quantity": 8}
       ]
    },
    "sign":{
       "item_id":"323",
       "sub_id":"0",
-      "sell":"50",
-      "buy":"38",
       "alias":"sign",
       "name":"sign",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"woodplanks", "quantity": 6},
+		{"alias":"stick", "quantity": 1}
       ]
    },
    "wooddoor":{
       "item_id":"324",
       "sub_id":"0",
-      "sell":"45",
-      "buy":"30",
       "alias":"wooddoor",
       "name":"wood door",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"woodplanks", "quantity": 6}
       ]
    },
    "bucket":{
       "item_id":"325",
       "sub_id":"0",
-      "sell":"195",
-      "buy":"165",
       "alias":"bucket",
       "name":"bucket",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 3}
       ]
    },
    "waterbucket":{
       "item_id":"326",
       "sub_id":"0",
-      "sell":"200",
-      "buy":"170",
       "alias":"waterbucket",
       "name":"water bucket",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 6}
       ]
    },
    "lavabucket":{
       "item_id":"327",
       "sub_id":"0",
-      "sell":"235",
-      "buy":"205",
       "alias":"lavabucket",
       "name":"lava bucket",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 6}
       ]
    },
    "minecart":{
       "item_id":"328",
       "sub_id":"0",
-      "sell":"325",
-      "buy":"275",
       "alias":"minecart",
       "name":"minecart",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 5}
       ]
    },
    "saddle":{
@@ -2409,13 +2310,11 @@
    "irondoor":{
       "item_id":"330",
       "sub_id":"0",
-      "sell":"390",
-      "buy":"330",
       "alias":"irondoor",
       "name":"iron door",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 6}
       ]
    },
    "redstone":{
@@ -2451,7 +2350,7 @@
       "name":"boat",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"woodplanks", "quantity": 5}
       ]
    },
    "leather":{
@@ -2469,25 +2368,22 @@
    "milkbucket":{
       "item_id":"335",
       "sub_id":"0",
-      "sell":"205",
-      "buy":"175",
       "alias":"milkbucket",
       "name":"milk bucket",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 3}
       ]
    },
    "claybrick":{
       "item_id":"336",
       "sub_id":"0",
-      "sell":"10.9",
-      "buy":"10.6",
       "alias":"claybrick",
       "name":"clay brick",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"clayball", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "clayballs":{
@@ -2517,25 +2413,21 @@
    "paper":{
       "item_id":"339",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.666667",
       "alias":"paper",
       "name":"paper",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+	  	{"alias":"sugarcane", "quantity": 3}
       ]
    },
    "book":{
       "item_id":"340",
       "sub_id":"0",
-      "sell":"3",
-      "buy":"2",
       "alias":"book",
       "name":"book",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"paper", "quantity": 3}
       ]
    },
    "slimeball":{
@@ -2553,25 +2445,23 @@
    "storageminecart":{
       "item_id":"342",
       "sub_id":"0",
-      "sell":"405",
-      "buy":"315",
       "alias":"storageminecart",
       "name":"storage minecart",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"minecart", "quantity": 1},
+		{"alias":"chest", "quantity": 1}
       ]
    },
    "poweredminecart":{
       "item_id":"343",
       "sub_id":"0",
-      "sell":"333",
-      "buy":"282",
       "alias":"poweredminecart",
       "name":"powered minecart",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"minecart", "quantity": 1},
+		{"alias":"furnace", "quantity": 1}
       ]
    },
    "egg":{
@@ -2589,13 +2479,12 @@
    "compass":{
       "item_id":"345",
       "sub_id":"0",
-      "sell":"272.5",
-      "buy":"227",
       "alias":"compass",
       "name":"compass",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 4},
+		{"alias":"redstone", "quantity": 1}
       ]
    },
    "fishingrod":{
@@ -2612,13 +2501,12 @@
    "clock":{
       "item_id":"347",
       "sub_id":"0",
-      "sell":"1052",
-      "buy":"967",
       "alias":"clock",
       "name":"clock",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"goldingot", "quantity": 4},
+		{"alias":"redstone", "quantity": 1}
       ]
    },
    "glowstonedust":{
@@ -2648,37 +2536,33 @@
    "cookedfish":{
       "item_id":"350",
       "sub_id":"0",
-      "sell":"50",
-      "buy":"40",
       "alias":"cookedfish",
       "name":"cooked fish",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"rawfish", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "red":{
       "item_id":"351",
       "sub_id":"1",
-      "sell":"0.3125",
-      "buy":"0.155",
       "alias":"red",
       "name":"dye: rose red",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+	  	{"alias":"redflower", "quantity": 1}
       ]
    },
    "green":{
       "item_id":"351",
       "sub_id":"2",
-      "sell":"1",
-      "buy":"0.5",
       "alias":"green",
       "name":"dye: cactus green",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"cactus", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "brown":{
@@ -2708,133 +2592,122 @@
    "purple":{
       "item_id":"351",
       "sub_id":"5",
-      "sell":"35.155",
-      "buy":"30.075",
       "alias":"purple",
       "name":"dye: purple dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"red", "quantity": 1},
+		{"alias":"blue", "quantity": 1}
       ]
    },
    "cyan":{
       "item_id":"351",
       "sub_id":"6",
-      "sell":"35.5",
-      "buy":"30.25",
       "alias":"cyan",
       "name":"dye: cyan dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+	  	{"alias":"green", "quantity": 1},
+		{"alias":"blue", "quantity": 1}
       ]
    },
    "lightgray":{
       "item_id":"351",
       "sub_id":"7",
-      "sell":"25",
-      "buy":"17",
       "alias":"lightgray",
       "name":"dye: light-gray dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"gray", "quantity": 1},
+		{"alias":"bonemeal", "quantity": 1}
       ]
    },
    "gray":{
       "item_id":"351",
       "sub_id":"8",
-      "sell":"20",
-      "buy":"13.5",
       "alias":"gray",
       "name":"dye: gray dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"inksac", "quantity": 1},
+		{"alias":"bonemeal", "quantity": 1}
       ]
    },
    "pink":{
       "item_id":"351",
       "sub_id":"9",
-      "sell":"10.3125",
-      "buy":"6.82",
       "alias":"pink",
       "name":"dye: pink dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
+  		{"alias":"red", "quantity": 1},
+		{"alias":"bonemeal", "quantity": 1}
 
       ]
    },
    "lime":{
       "item_id":"351",
       "sub_id":"10",
-      "sell":"12",
-      "buy":"9",
       "alias":"lime",
       "name":"dye: lime dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"green", "quantity": 1},
+		{"alias":"bonemeal", "quantity": 1}
       ]
    },
    "yellow":{
       "item_id":"351",
       "sub_id":"11",
-      "sell":"0.3125",
-      "buy":"0.155",
       "alias":"yellow",
       "name":"dye: yellow dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"yellowflower", "quantity": 1}
       ]
    },
    "lightblue":{
       "item_id":"351",
       "sub_id":"12",
-      "sell":"40",
-      "buy":"33.5",
       "alias":"lightblue",
       "name":"dye: light-blue dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
+  		{"alias":"bonemeal", "quantity": 1},
+		{"alias":"blue", "quantity": 1}
 
       ]
    },
    "magenta":{
       "item_id":"351",
       "sub_id":"13",
-      "sell":"22.73",
-      "buy":"18.445",
       "alias":"magenta",
       "name":"dye: magenta dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"purple", "quantity": 1},
+		{"alias":"pink", "quantity": 1}
       ]
    },
    "orange":{
       "item_id":"351",
       "sub_id":"14",
-      "sell":"0.625",
-      "buy":"0.31",
       "alias":"orange",
       "name":"dye: orange dye",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+  		{"alias":"red", "quantity": 1},
+		{"alias":"yellow", "quantity": 1}
       ]
    },
    "bonemeal":{
       "item_id":"351",
       "sub_id":"15",
-      "sell":"10",
-      "buy":"6.66667",
       "alias":"bonemeal",
       "name":"bonemeal",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+	  	  {"alias":"bone", "quantity": 1}
       ]
    },
    "inksac":{
@@ -2864,85 +2737,79 @@
    "sugar":{
       "item_id":"353",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.5",
       "alias":"sugar",
       "name":"sugar",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"sugarcane", "quantity": 1}
       ]
    },
    "cake":{
       "item_id":"354",
       "sub_id":"0",
-      "sell":"649",
-      "buy":"547",
       "alias":"cake",
       "name":"cake",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"egg", "quantity": 1},
+		{"alias":"wheat", "quantity": 3},
+		{"alias":"milkbucket", "quantity": 3},
+		{"alias":"sugar", "quantity": 2}
       ]
    },
    "bed":{
       "item_id":"355",
       "sub_id":"0",
-      "sell":"83",
-      "buy":"45",
       "alias":"bed",
       "name":"bed",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"wool", "quantity": 3},
+		{"alias":"woodplanks", "quantity": 1}
       ]
    },
    "repeater":{
       "item_id":"356",
       "sub_id":"0",
-      "sell":"58",
-      "buy":"43",
       "alias":"repeater",
       "name":"repeater",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"stone", "quantity": 3},
+		{"alias":"redstonetorch", "quantity": 2},
+		{"alias":"redstone", "quantity": 1}
       ]
    },
    "cookie":{
       "item_id":"357",
       "sub_id":"0",
-      "sell":"15",
-      "buy":"10",
       "alias":"cookie",
       "name":"cookie",
-      "quantity":1,
+      "quantity":8,
       "recipe":[
-
+	  	{"alias":"brown", "quantity": 1},
+		{"alias":"wheat", "quantity": 2}
       ]
    },
    "map":{
       "item_id":"358",
       "sub_id":"0",
-      "sell":"280",
-      "buy":"232",
       "alias":"map",
       "name":"map",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"compass", "quantity": 1},
+		{"alias":"paper", "quantity": 8}
       ]
    },
    "shears":{
       "item_id":"359",
       "sub_id":"0",
-      "sell":"130",
-      "buy":"110",
       "alias":"shears",
       "name":"shears",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"ironingot", "quantity": 2}
       ]
    },
    "melonslice":{
@@ -2972,13 +2839,11 @@
    "melonseeds":{
       "item_id":"362",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"2",
       "alias":"melonseeds",
       "name":"melon seeds",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"melonslice", "quantity": 1}
       ]
    },
    "rawbeef":{
@@ -2996,13 +2861,12 @@
    "steak":{
       "item_id":"364",
       "sub_id":"0",
-      "sell":"2",
-      "buy":"1.5",
       "alias":"steak",
       "name":"steak",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"rawbeef", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "rawchicken":{
@@ -3020,13 +2884,12 @@
    "cookedchicken":{
       "item_id":"366",
       "sub_id":"0",
-      "sell":"2.5",
-      "buy":"2",
       "alias":"cookedchicken",
       "name":"cooked chicken",
       "quantity":1,
       "recipe":[
-
+	  	{"alias":"rawchicken", "quantity": 1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "rottenflesh":{
