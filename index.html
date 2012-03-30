@@ -1,21 +1,31 @@
 <!doctype html>
 <html>
 	<head>
-		<title>CraftPricing</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script src="js/craftpricing.js"></script>
-		<script>
-			$.getJSON('js/recipes.js', function(json){
-				CraftPricing.generate(json, formatterMysql);
-			});
-			
-			// An example formatter, printing insert sql for mysql
-			var formatterMysql = function( item ){
-				var sql = "INSERT INTO `shops` (`odditem_name`, `buy_price`, `sell_price`) VALUES (`"+item.name+"`,`"+item.buy+"`,`"+item.sell+"`);";
-				document.write(sql+"<br>");
-			}
-		</script>
+		<title>CraftPricing - Pricing Engine for Minecraft</title>
+		<style>
+			body { font: 14px/1.6em "Helvetica", "Verdana", serif; }
+			.wrapper { width: 600px; padding: 20px; }
+		</style>
 	</head>
 	<body>
+
+		<div class="wrapper">
+
+			<h1>CraftPricing</h1>
+			<em>For Minecraft <strong>1.2.4</strong> - By viveleroi of dhmc.us</em>
+
+			<p>A javascript-based pricing engine for all items in Minecraft.</p>
+
+			<p>By entering pricing information for all <em>base materials</em>, this program will automatically generate pricing data for all other items.</p>
+
+			<p>To keep this application lightweight and easily distributable, the data is stored in raw JSON format, in the /js/recipe data.</p>
+
+			<p>The initial package comes with a set of <a href="test.html">unit tests</a> for both data structure and price calculations. Adjust the tests expected values and run to ensure
+				your data is complete. You can pass in your own callback formatter to describe the method of data output. An example formatter is provided, exporting
+				the data into MySQL <code>INSERT</code> queries.</p>
+
+			<p><a href="generate.html">Generate Pricing</a></p>
+
+		</div>
 	</body>
 </html>

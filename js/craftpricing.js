@@ -7,7 +7,7 @@ var CraftPricing = {
 	 * Returns the complete unit price for the item, including
 	 * those that this item depends on.
 	 */
-	getItem: function( alias, debug ){
+	getItem: function( alias ){
 		debug = (typeof debug === "undefined" ? false : debug);
 		var item = this._json[alias];
 		var buy = 0;
@@ -20,25 +20,17 @@ var CraftPricing = {
 				var l = item.recipe.length;
 				for(var i=0;i<l;i++){
 					var recipe = item.recipe[i];
-					var r = this.getItem( recipe.alias, debug );
+					var r = this.getItem( recipe.alias );
 					if(typeof r == "object" && r != null){
 						// Determines the cost of the recipe materials
 						var buy_per_unit = (r.buy * parseFloat(recipe.quantity, 10));
 						var sell_per_unit = (r.sell * parseFloat(recipe.quantity, 10));
 						buy += buy_per_unit;
 						sell += sell_per_unit;
-						if(debug){
-							console.log("subrecipe " + recipe.alias + " buys for " + buy_per_unit + " per unit");
-							console.log("subrecipe " + recipe.alias + " sell for " + sell_per_unit + " per unit");
-						}
 					}
 				}
 				item['buy'] = (buy / parseFloat(item.quantity, 10));
 				item['sell'] = (sell / parseFloat(item.quantity, 10));
-				if(debug){
-					console.log(item.alias + " buys for " + item['buy'] + " per unit");
-					console.log(item.alias + " sell for " + item['sell'] + " per unit");
-				}
 				// cache the price, so future recursion isn't necessary
 				this._json[alias]["buy"] = item['buy'];
 				this._json[alias]["sell"] = item['sell'];
