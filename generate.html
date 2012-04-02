@@ -8,17 +8,13 @@
 			$.getJSON('js/recipes.js', function(json){
 				CraftPricing.generate(json, formatterMysql);
 			});
-			
 			// An example formatter, printing insert sql for mysql
 			var formatterMysql = function( item ){
-				var sql = "INSERT INTO `shops` (`odditem_name`, `buy_price`, `sell_price`) VALUES (`"+item.name+"`,`"+item.buy+"`,`"+item.sell+"`);";
+				var sql = "INSERT INTO `craftys_products` (`item_id`, `sub_id`, `alias`, `item`, `buy_price`, `sell_price`) VALUES ("+item.item_id+","+item.sub_id+",'"+item.alias+"','"+item.name+"',"+item.buy+","+item.sell+");";
 				document.write(sql+"<br>");
 			}
 		</script>
 	</head>
 	<body>
-
-
-
 	</body>
 </html>

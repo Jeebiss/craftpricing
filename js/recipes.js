@@ -87,11 +87,23 @@
       	{"alias":"junglelog", "quantity": 1}
       ]
    },
+   "junglesapling":{
+      "item_id":"6",
+      "sub_id":"3",
+      "sell":"10",
+      "buy":"2",
+      "alias":"junglesapling",
+      "name":"jungle sapling",
+      "quantity":1,
+      "recipe":[
+
+      ]
+   },
    "pinesapling":{
       "item_id":"6",
       "sub_id":"1",
       "sell":"10",
-      "buy":"5",
+      "buy":"2",
       "alias":"pinesapling",
       "name":"redwood sapling",
       "quantity":1,
@@ -103,7 +115,7 @@
       "item_id":"6",
       "sub_id":"2",
       "sell":"10",
-      "buy":"5",
+      "buy":"2",
       "alias":"birchsapling",
       "name":"birch sapling",
       "quantity":1,
@@ -115,7 +127,7 @@
       "item_id":"6",
       "sub_id":"0",
       "sell":"10",
-      "buy":"5",
+      "buy":"2",
       "alias":"sapling",
       "name":"sapling",
       "quantity":1,
@@ -183,23 +195,23 @@
 
       ]
    },
-   "pinewood":{
+   "redwoodlog":{
       "item_id":"17",
       "sub_id":"1",
-      "sell":"30",
-      "buy":"20",
-      "alias":"pinewood",
+      "sell":"1",
+      "buy":".5",
+      "alias":"redwoodlog",
       "name":"redwood",
       "quantity":1,
       "recipe":[
 
       ]
    },
-   "birchwood":{
+   "birchlog":{
       "item_id":"17",
       "sub_id":"2",
-      "sell":"30",
-      "buy":"20",
+      "sell":"1",
+      "buy":".5",
       "alias":"birchwood",
       "name":"birch wood",
       "quantity":1,
@@ -207,11 +219,11 @@
 
       ]
    },
-   "junglewood":{
+   "junglelog":{
       "item_id":"17",
       "sub_id":"3",
-      "sell":"30",
-      "buy":"20",
+      "sell":"1",
+      "buy":".5",
       "alias":"junglewood",
       "name":"jungle wood",
       "quantity":1,
@@ -222,8 +234,8 @@
    "log":{
       "item_id":"17",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"2.5",
+      "sell":"1",
+      "buy":".5",
       "alias":"log",
       "name":"wood",
       "quantity":1,
@@ -360,13 +372,11 @@
    "smoothsandstone":{
       "item_id":"24",
       "sub_id":"2",
-      "sell":"3.72",
-      "buy":"3.12",
       "alias":"smoothsandstone",
       "name":"smooth sandstone",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+         {"alias":"sandstone","quantity": 4}
       ]
    },
    "noteblock":{
@@ -540,7 +550,7 @@
       "quantity":1,
       "recipe":[
 		{"alias":"wool","quantity":1},
-		{"alias":"lightgreen","quantity":1}
+		{"alias":"lime","quantity":1}
       ]
    },
    "pinkwool":{
@@ -620,15 +630,15 @@
 		{"alias":"brown","quantity":1}
       ]
    },
-   "darkgreenwool":{
+   "greenwool":{
       "item_id":"35",
       "sub_id":"13",
-      "alias":"darkgreenwool",
-      "name":"dark-green wool",
+      "alias":"greenwool",
+      "name":"green wool",
       "quantity":1,
       "recipe":[
 		{"alias":"wool","quantity":1},
-		{"alias":"darkgreen","quantity":1}
+		{"alias":"green","quantity":1}
       ]
    },
    "redwool":{
@@ -650,7 +660,7 @@
       "quantity":1,
       "recipe":[
 		{"alias":"wool","quantity":1},
-		{"alias":"black","quantity":1}
+		{"alias":"inksac","quantity":1}
       ]
    },
    "wool":{
@@ -740,7 +750,7 @@
       "name":"double sandstone slab",
       "quantity":1,
       "recipe":[
-		{"alias":"sandstoneslab","quantity":2}
+		{"alias":"sandslab","quantity":2}
       ]
    },
    "dcobbleslab":{
@@ -1264,13 +1274,11 @@
    "stonebrick":{
       "item_id":"98",
       "sub_id":"0",
-      "sell":"1.75",
-      "buy":"10.125",
       "alias":"stonebrick",
       "name":"stone brick",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+         {"alias":"stone","quantity":4}
       ]
    },
    "redmushroomcap":{
@@ -1304,7 +1312,7 @@
       "name":"iron bars",
       "quantity":16,
       "recipe":[
-	  	{"alias":"ironingots","quantity":6}
+	  	{"alias":"ironingot","quantity":6}
       ]
    },
    "glasspane":{
@@ -1603,13 +1611,11 @@
    "goldingot":{
       "item_id":"266",
       "sub_id":"0",
-      "sell":"260",
-      "buy":"240",
       "alias":"goldingot",
       "name":"gold ingot",
       "quantity":1,
       "recipe":[
-
+         {"alias":"goldnugget","quantity":9}
       ]
    },
    "ironsword":{
@@ -2951,349 +2957,318 @@
    "waterbottle":{
       "item_id":"373",
       "sub_id":"0",
-      "sell":"4.5",
-      "buy":"3",
       "alias":"waterbottle",
       "name":"water bottle",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glass", "quantity": 3}
       ]
    },
    "awkwardbase":{
       "item_id":"373",
       "sub_id":"16",
-      "sell":"7.16667",
-      "buy":"3.66667",
       "alias":"awkwardbase",
       "name":"awkward potion",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"netherwart", "quantity": 1},
+         {"alias":"waterbottle", "quantity": 3}
       ]
    },
    "thickbase":{
       "item_id":"373",
       "sub_id":"32",
-      "sell":"1.83333",
-      "buy":"1.16667",
       "alias":"thickbase",
       "name":"thick potion",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"waterbottle", "quantity": 3}
       ]
    },
    "mundanebaseext":{
       "item_id":"373",
       "sub_id":"64",
-      "sell":"5.66667",
-      "buy":"3.5",
       "alias":"mundanebaseext",
       "name":"mundane potion extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"redstone", "quantity": 1},
+         {"alias":"waterbottle", "quantity": 3}
       ]
    },
    "mundanebase":{
       "item_id":"373",
       "sub_id":"8192",
-      "sell":"1.83333",
-      "buy":"1.16667",
       "alias":"mundanebase",
       "name":"mundane potion",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glisteringmelon", "quantity": 1},
+         {"alias":"waterbottle", "quantity": 3}
       ]
    },
    "weaknessbase":{
       "item_id":"373",
       "sub_id":"8200",
-      "sell":"15.1667",
-      "buy":"7.83333",
       "alias":"weaknessbase",
       "name":"potion of weakness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"waterbottle", "quantity": 3}
       ]
    },
    "regen1":{
       "item_id":"373",
       "sub_id":"8193",
-      "sell":"140.5",
-      "buy":"123.667",
       "alias":"regen1",
       "name":"potion of regeneration",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"ghasttear", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "swift1":{
       "item_id":"373",
       "sub_id":"8194",
-      "sell":"7.66667",
-      "buy":"3.83333",
       "alias":"swift1",
       "name":"potion of swiftness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"sugar", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "resist1":{
       "item_id":"373",
       "sub_id":"8195",
-      "sell":"42.1667",
-      "buy":"32",
       "alias":"resist1",
       "name":"potion of fire resistance",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"magmacream", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "poison1":{
       "item_id":"373",
       "sub_id":"8196",
-      "sell":"13.8333",
-      "buy":"7",
       "alias":"poison1",
       "name":"potion of poison",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"spidereye", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "health1":{
       "item_id":"373",
       "sub_id":"8197",
-      "sell":"18.1667",
-      "buy":"13",
       "alias":"health1",
       "name":"potion of instant health",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glisteringmelon", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "strength1":{
       "item_id":"373",
       "sub_id":"8201",
-      "sell":"15.5",
-      "buy":"10.3333",
       "alias":"strength1",
       "name":"potion of strength",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"blazepowder", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "weakness1":{
       "item_id":"373",
       "sub_id":"8232",
-      "sell":"15.5",
-      "buy":"10.1667",
       "alias":"weakness1",
       "name":"potion of weakness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"awkwardbase", "quantity": 3}
       ]
    },
    "weaknessext1":{
       "item_id":"373",
       "sub_id":"8264",
-      "sell":"19.3333",
-      "buy":"10.3333",
       "alias":"weaknessext1",
       "name":"potion of weakness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"mundanebase", "quantity": 3}
       ]
    },
    "resist2":{
       "item_id":"373",
       "sub_id":"8259",
-      "sell":"46.3333",
-      "buy":"34.5",
       "alias":"resist2",
       "name":"potion of fire resistance ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"redstone", "quantity": 1},
+         {"alias":"resist1", "quantity": 3}
       ]
    },
    "health2":{
       "item_id":"373",
       "sub_id":"8229",
-      "sell":"18.5",
-      "buy":"13.3333",
       "alias":"health2",
       "name":"potion of instant health ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"health1", "quantity": 3}
       ]
    },
    "regenext":{
       "item_id":"373",
       "sub_id":"8257",
-      "sell":"144.667",
-      "buy":"126.167",
       "alias":"regenext",
       "name":"potion of regeneration extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"regen1", "quantity": 3}
       ]
    },
    "strengthext":{
       "item_id":"373",
       "sub_id":"8265",
-      "sell":"19.6667",
-      "buy":"12.8333",
       "alias":"strengthext",
       "name":"potion of strength extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"strength1", "quantity": 3}
       ]
    },
    "swiftext":{
       "item_id":"373",
       "sub_id":"8258",
-      "sell":"11.8333",
-      "buy":"6.33333",
       "alias":"swiftext",
       "name":"potion of swiftness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"redstone", "quantity": 1},
+         {"alias":"swift1", "quantity": 3}
       ]
    },
    "strength2":{
       "item_id":"373",
       "sub_id":"8233",
-      "sell":"15.8333",
-      "buy":"10.6667",
       "alias":"strength2",
       "name":"potion of strength ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"strength1", "quantity": 3}
       ]
    },
    "swift2":{
       "item_id":"373",
       "sub_id":"8226",
-      "sell":"8",
-      "buy":"4.16667",
       "alias":"swift2",
       "name":"potion of swiftness ii",
       "quantity":1,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"swift1", "quantity": 3}
       ]
    },
    "harm1":{
       "item_id":"373",
       "sub_id":"8204",
-      "sell":"31.8333",
-      "buy":"19.8333",
       "alias":"harm1",
       "name":"potion of harming",
       "quantity":1,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"health1", "quantity": 3}
       ]
    },
    "harm2":{
       "item_id":"373",
       "sub_id":"8236",
-      "sell":"32.1333",
-      "buy":"20.1667",
       "alias":"harm2",
       "name":"potion of harming ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"health2", "quantity": 3}
       ]
    },
    "poisonext":{
       "item_id":"373",
       "sub_id":"8260",
-      "sell":"18",
-      "buy":"9.5",
       "alias":"poisonext",
       "name":"potion of poison extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"redstone", "quantity": 1},
+         {"alias":"poison1", "quantity": 3}
       ]
    },
    "poison2":{
       "item_id":"373",
       "sub_id":"8228",
-      "sell":"14.1667",
-      "buy":"7.33333",
       "alias":"poison2",
       "name":"potion of poison 2",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"poison1", "quantity": 3}
       ]
    },
    "slowness1":{
       "item_id":"373",
       "sub_id":"8202",
-      "sell":"55.8333",
-      "buy":"38.8333",
       "alias":"slowness1",
       "name":"potion of slowness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"fermentedeye", "quantity": 1},
+         {"alias":"resist1", "quantity": 3}
       ]
    },
    "slownessext":{
       "item_id":"373",
       "sub_id":"8266",
-      "sell":"60",
-      "buy":"41.3333",
       "alias":"slownessext",
       "name":"potion of slowness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"redstone", "quantity": 1},
+         {"alias":"slowness1", "quantity": 3}
       ]
    },
    "regen2":{
       "item_id":"373",
       "sub_id":"8225",
-      "sell":"140.917",
-      "buy":"124",
       "alias":"regen2",
       "name":"potion of regeneration ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glowstonedust", "quantity": 1},
+         {"alias":"regen1", "quantity": 3}
       ]
    },
    "glassbottle":{
       "item_id":"374",
       "sub_id":"0",
-      "sell":"1.5",
-      "buy":"1",
       "alias":"glassbottle",
       "name":"glass bottle",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"glass", "quantity": 3}
       ]
    },
    "spidereye":{
@@ -3311,85 +3286,77 @@
    "fermentedeye":{
       "item_id":"376",
       "sub_id":"0",
-      "sell":"41",
-      "buy":"20.5",
       "alias":"fermentedeye",
       "name":"fermented spider eye",
       "quantity":1,
       "recipe":[
-
+         {"alias":"spidereye", "quantity": 1},
+         {"alias":"sugar", "quantity": 1},
+         {"alias":"brownmushroom", "quantity": 1}
       ]
    },
    "blazepowder":{
       "item_id":"377",
       "sub_id":"0",
-      "sell":"25",
-      "buy":"20",
       "alias":"blazepowder",
       "name":"blaze powder",
-      "quantity":1,
+      "quantity":2,
       "recipe":[
-
+         {"alias":"blazerod", "quantity": 1}
       ]
    },
    "magmacream":{
       "item_id":"378",
       "sub_id":"0",
-      "sell":"105",
-      "buy":"80",
       "alias":"magmacream",
       "name":"magma cream",
       "quantity":1,
       "recipe":[
-
+         {"alias":"blazepowder", "quantity": 1},
+         {"alias":"slimeball", "quantity": 1}
       ]
    },
    "brewingstand":{
       "item_id":"379",
       "sub_id":"0",
-      "sell":"53",
-      "buy":"42",
       "alias":"brewingstand",
       "name":"brewing stand",
       "quantity":1,
       "recipe":[
-
+         {"alias":"blazerod", "quantity": 1},
+         {"alias":"cobble", "quantity": 3}
       ]
    },
    "cauldron":{
       "item_id":"380",
       "sub_id":"0",
-      "sell":"455",
-      "buy":"385",
       "alias":"cauldron",
       "name":"cauldron",
       "quantity":1,
       "recipe":[
-
+         {"alias":"ironingot", "quantity": 7}
       ]
    },
    "eyeofender":{
       "item_id":"381",
       "sub_id":"0",
-      "sell":"225",
-      "buy":"170",
       "alias":"eyeofender",
       "name":"eye of ender",
       "quantity":1,
       "recipe":[
-
+         {"alias":"blazepowder", "quantity": 1},
+         {"alias":"enderpearl", "quantity": 1}
       ]
    },
    "glisteringmelon":{
       "item_id":"382",
       "sub_id":"0",
-      "sell":"33",
-      "buy":"28",
       "alias":"glisteringmelon",
       "name":"glistering melon",
       "quantity":1,
       "recipe":[
-
+         {"alias":"melonslice", "quantity": 1},
+         {"alias":"goldnugget", "quantity": 1}
       ]
    },
    "yellowdisc":{
@@ -3527,265 +3494,243 @@
    "splashweakness":{
       "item_id":"373",
       "sub_id":"16392",
-      "sell":"48.8333",
-      "buy":"36.8333",
       "alias":"splashweakness",
       "name":"splash potion of weakness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"weakness1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashregen1":{
       "item_id":"373",
       "sub_id":"16385",
-      "sell":"173.833",
-      "buy":"150.333",
       "alias":"splashregen1",
       "name":"splash potion of regeneration",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"regen1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashswift1":{
       "item_id":"373",
       "sub_id":"16386",
-      "sell":"41",
-      "buy":"30.5",
       "alias":"splashswift1",
       "name":"splash potion of swiftness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"swift1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashresist1":{
       "item_id":"373",
       "sub_id":"16378",
-      "sell":"75.5",
-      "buy":"58.6667",
       "alias":"splashresist1",
       "name":"splash potion of fire resistance",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"resist1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashpoison1":{
       "item_id":"373",
       "sub_id":"16388",
-      "sell":"47.1667",
-      "buy":"33.6667",
       "alias":"splashpoison1",
       "name":"splash potion of poison",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"poison1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashhealth1":{
       "item_id":"373",
       "sub_id":"16389",
-      "sell":"51.5",
-      "buy":"39.6667",
       "alias":"splashhealth1",
       "name":"splash potion of instant health",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"health1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashstrength1":{
       "item_id":"373",
       "sub_id":"16393",
-      "sell":"48.8333",
-      "buy":"37",
       "alias":"splashstrength1",
       "name":"splash potion of strength",
       "quantity":1,
       "recipe":[
-
+         {"alias":"strength1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashweaknessext1":{
       "item_id":"373",
       "sub_id":"16456",
-      "sell":"52.6667",
-      "buy":"37",
       "alias":"splashweaknessext1",
       "name":"splash potion of weakness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"weaknessext1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashresist2":{
       "item_id":"373",
       "sub_id":"16451",
-      "sell":"79.6667",
-      "buy":"61.1667",
       "alias":"splashresist2",
       "name":"splash potion of fire resistance ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"resist2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashhealth2":{
       "item_id":"373",
       "sub_id":"16421",
-      "sell":"51.8333",
-      "buy":"40",
       "alias":"splashhealth2",
       "name":"splash potion of instant health ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"health2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashregenext":{
       "item_id":"373",
       "sub_id":"16449",
-      "sell":"178",
-      "buy":"152.833",
       "alias":"splashregenext",
       "name":"splash potion of regeneration extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"regenext", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashstrengthext":{
       "item_id":"373",
       "sub_id":"16457",
-      "sell":"53",
-      "buy":"36.1667",
       "alias":"splashstrengthext",
       "name":"splash potion of strength extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"strengthext", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashswiftext":{
       "item_id":"373",
       "sub_id":"16450",
-      "sell":"45.1667",
-      "buy":"33",
       "alias":"splashswiftext",
       "name":"splash potion of swiftness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"swiftext", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashstrength2":{
       "item_id":"373",
       "sub_id":"16425",
-      "sell":"49.1667",
-      "buy":"37.3333",
       "alias":"splashstrength2",
       "name":"splash potion of strength ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"strength2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashswift2":{
       "item_id":"373",
       "sub_id":"16418",
-      "sell":"41.3333",
-      "buy":"30.8333",
       "alias":"splashswift2",
       "name":"splash potion of swiftness ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"swift2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashharm1":{
       "item_id":"373",
       "sub_id":"16396",
-      "sell":"65.1667",
-      "buy":"46.5",
       "alias":"splashharm1",
       "name":"splash potion of harming",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"harm1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashharm2":{
       "item_id":"373",
       "sub_id":"16428",
-      "sell":"65.4667",
-      "buy":"46.8333",
       "alias":"splashharm2",
       "name":"splash potion of harming ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"harm2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashpoisonext":{
       "item_id":"373",
       "sub_id":"16452",
-      "sell":"51.3333",
-      "buy":"36.1667",
       "alias":"splashpoisonext",
       "name":"splash potion of poison extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"poisonext", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashpoison2":{
       "item_id":"373",
       "sub_id":"16420",
-      "sell":"47.5",
-      "buy":"34",
       "alias":"splashpoison2",
       "name":"splash potion of poison 2",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"poison2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashslowness1":{
       "item_id":"373",
       "sub_id":"16394",
-      "sell":"89.1667",
-      "buy":"68.8333",
       "alias":"splashslowness1",
       "name":"splash potion of slowness",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"slowness1", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashslownessext":{
       "item_id":"373",
       "sub_id":"16458",
-      "sell":"93.3333",
-      "buy":"68",
       "alias":"splashslownessext",
       "name":"splash potion of slowness extended",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"slownessext", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    },
    "splashregen2":{
       "item_id":"373",
       "sub_id":"16471",
-      "sell":"174.25",
-      "buy":"150.667",
       "alias":"splashregen2",
       "name":"splash potion of regeneration ii",
-      "quantity":1,
+      "quantity":3,
       "recipe":[
-
+         {"alias":"regen2", "quantity": 3},
+         {"alias":"gunpowder", "quantity": 1}
       ]
    }
 }

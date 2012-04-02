@@ -1,5 +1,9 @@
 var CraftPricing = {
+	// Internal holder for json
 	_json: false,
+	/**
+	 * Loads the json data into the object
+	 */
 	load: function( json ){
 		this._json = json;
 	},
@@ -8,7 +12,6 @@ var CraftPricing = {
 	 * those that this item depends on.
 	 */
 	getItem: function( alias ){
-		debug = (typeof debug === "undefined" ? false : debug);
 		var item = this._json[alias];
 		var buy = 0;
 		var sell = 0;
@@ -69,9 +72,32 @@ var CraftPricing = {
 						if(typeof rsp_item.buy !== "undefined" || typeof rsp_item.sell !== "undefined"){
 							equal( rsp_item.recipe.length, 0, "Checking " + item + ". Ensuring buy/sell fields not present if recipes are.");
 						}
+						if(rsp_item.recipe.length > 0){
+							var l = rsp_item.recipe.length;
+							for(var i=0;i<l;i++){
+								var recipe = rsp_item.recipe[i];
+								var r = CraftPricing._json[recipe.alias];
+								equal( typeof r, "object", "Recipe alias was not found: " + recipe.alias );
+							}
+						}
 					}
 				}
 			}
 		});
+	},
+
+	/**
+	 * List all items we think are base materials.
+	 */
+	allBaseMaterials: function(){
+		for(item in this._json){
+			if (this._json.hasOwnProperty(item)){
+
+				var rsp_item = CraftPricing._json[item];
+				if(rsp_item.recipe.length == 0){
+					console.log(mats);
+				}
+			}
+		}
 	}
 }

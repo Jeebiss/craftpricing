@@ -14,26 +14,26 @@
 
 				test("woodplanks", function() {
 					var item = CraftPricing.getItem( "woodplanks" );
-					equal( item.sell, 1.25);
-					equal( item.buy, .625);
+					equal( item.sell, 0.25);
+					equal( item.buy, .125);
 				});
 
 				test("stick", function() {
 					var item = CraftPricing.getItem( "stick" );
-					equal( item.sell, .625);
-					equal( item.buy, .3125);
+					equal( item.sell, .125);
+					equal( item.buy, .0625);
 				});
 
 				test("torch", function() {
 					var item = CraftPricing.getItem( "torch" );
-					equal( item.sell, 1.65625);
-					equal( item.buy, 1.078125);
+					equal( item.sell, 1.53125);
+					equal( item.buy, 1.015625);
 				});
 
 				test("fishingrod", function() {
 					var item = CraftPricing.getItem( "fishingrod" );
-					equal( item.sell, 61.875);
-					equal( item.buy, 40.9375);
+					equal( item.sell, 60.375);
+					equal( item.buy, 40.1875);
 				});
 				
 				test("glass", function() {
@@ -50,8 +50,8 @@
 
 				test("goldblock", function() {
 					var item = CraftPricing.getItem( "goldblock" );
-					equal( item.sell, 2340);
-					equal( item.buy, 2160);
+					equal( item.sell, 2268);
+					equal( item.buy, 2106);
 				});
 
 				test("enchantmenttable", function() {
@@ -62,8 +62,8 @@
 
 				test("diamondpickaxe", function() {
 					var item = CraftPricing.getItem( "diamondpickaxe" );
-					equal( item.sell, 1201.25);
-					equal( item.buy, 1080.625);
+					equal( item.sell, 1200.25);
+					equal( item.buy, 1080.125);
 				});
 
 				test("claybrick", function() {
@@ -74,8 +74,8 @@
 
 				test("clock", function() {
 					var item = CraftPricing.getItem( "clock" );
-					equal( item.sell, 1052.5);
-					equal( item.buy, 967.5);
+					equal( item.sell, 1020.5);
+					equal( item.buy, 943.5);
 				});
 
 				test("purple", function() {
@@ -89,6 +89,45 @@
 					equal( item.sell, 618.25);
 					equal( item.buy, 516.9375);
 				});
+
+				test("waterbottle", function() {
+					var item = CraftPricing.getItem( "waterbottle" );
+					equal( item.sell, 0.9375);
+					equal( item.buy, 0.78125 );
+				});
+
+				test("awkwardbase", function() {
+					var item = CraftPricing.getItem( "awkwardbase" );
+					equal( item.sell, 2.6041666666666665);
+					equal( item.buy, 1.6145833333333333);
+				});
+
+				test("regen1", function() {
+					var item = CraftPricing.getItem( "regen1" );
+					equal( item.sell, 135.9375);
+					equal( item.buy, 121.61458333333333);
+				});
+
+				test("health2", function() {
+					var item = CraftPricing.getItem( "health2" );
+					equal( item.sell, 14.020833333333334);
+					equal( item.buy, 11.28125);
+				});
+
+				test("fermentedeye", function() {
+					var item = CraftPricing.getItem( "fermentedeye" );
+					equal( item.sell, 40.625);
+					equal( item.buy, 20.46875);
+				});
+
+				test("splashregen2", function() {
+					var item = CraftPricing.getItem( "splashregen2" );
+					equal( item.sell, 169.6875);
+					equal( item.buy, 148.61458333333334);
+				});
+
+				// Log all base materials to console
+				// CraftPricing.allBaseMaterials();
 
 			});
 		</script>
