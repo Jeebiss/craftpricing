@@ -313,18 +313,6 @@
       	{"alias":"sand","quantity":1}
       ]
    },
-   "lapisore":{
-      "item_id":"21",
-      "sub_id":"0",
-      "sell":"280",
-      "buy":"240",
-      "alias":"lapisore",
-      "name":"lapislazuli ore",
-      "quantity":1,
-      "recipe":[
-
-      ]
-   },
    "lapisblock":{
       "item_id":"22",
       "sub_id":"0",
@@ -1159,8 +1147,8 @@
    "pumpkin":{
       "item_id":"86",
       "sub_id":"0",
-      "sell":"45",
-      "buy":"18",
+      "sell":"5",
+      "buy":"2",
       "alias":"pumpkin",
       "name":"pumpkin",
       "quantity":1,
@@ -1263,7 +1251,7 @@
       "item_id":"98",
       "sub_id":"3",
       "sell":"1.75",
-      "buy":"10.125",
+      "buy":"0.75",
       "alias":"circlestonebrick",
       "name":"circle stone brick",
       "quantity":1,
@@ -2817,13 +2805,11 @@
    "pumpkinseeds":{
       "item_id":"361",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"2",
       "alias":"pumpkinseeds",
       "name":"pumpkin seeds",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
-
+		  {"alias":"pumpkin", "quantity": 1}
       ]
    },
    "melonseeds":{
@@ -3362,8 +3348,8 @@
    "yellowdisc":{
       "item_id":"2256",
       "sub_id":"0",
-      "sell":"1000",
-      "buy":"800",
+      "sell":"30",
+      "buy":"20",
       "alias":"yellowdisc",
       "name":"gold music disc",
       "quantity":1,
@@ -3374,8 +3360,8 @@
    "greendisc":{
       "item_id":"2257",
       "sub_id":"0",
-      "sell":"1000",
-      "buy":"800",
+      "sell":"30",
+      "buy":"20",
       "alias":"greendisc",
       "name":"green music disc",
       "quantity":1,
