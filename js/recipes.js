@@ -62,7 +62,7 @@
       "sub_id":"1",
       "alias":"redwoodplanks",
       "name":"redwood planks",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
       	{"alias":"redwoodlog", "quantity": 1}
       ]
@@ -72,7 +72,7 @@
       "sub_id":"2",
       "alias":"birchplanks",
       "name":"birch planks",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
       	{"alias":"birchlog", "quantity": 1}
       ]
@@ -82,7 +82,7 @@
       "sub_id":"3",
       "alias":"jungleplanks",
       "name":"jungle planks",
-      "quantity":1,
+      "quantity":4,
       "recipe":[
       	{"alias":"junglelog", "quantity": 1}
       ]
