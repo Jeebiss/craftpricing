@@ -183,18 +183,6 @@
 
       ]
    },
-   "coalore":{
-      "item_id":"16",
-      "sub_id":"0",
-      "sell":"6",
-      "buy":"4",
-      "alias":"coalore",
-      "name":"coal ore",
-      "quantity":1,
-      "recipe":[
-
-      ]
-   },
    "redwoodlog":{
       "item_id":"17",
       "sub_id":"1",
@@ -491,7 +479,7 @@
       "sub_id":"1",
       "alias":"orangewool",
       "name":"orange wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"orange","quantity":1}
@@ -502,7 +490,7 @@
       "sub_id":"2",
       "alias":"magentawool",
       "name":"magenta wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"magenta","quantity":1}
@@ -513,7 +501,7 @@
       "sub_id":"3",
       "alias":"lightbluewool",
       "name":"light-blue wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"lightblue","quantity":1}
@@ -524,7 +512,7 @@
       "sub_id":"4",
       "alias":"yellowwool",
       "name":"yellow wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"yellow","quantity":1}
@@ -535,7 +523,7 @@
       "sub_id":"5",
       "alias":"lightgreenwool",
       "name":"light-green wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"lime","quantity":1}
@@ -546,7 +534,7 @@
       "sub_id":"6",
       "alias":"pinkwool",
       "name":"pink wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"pink","quantity":1}
@@ -557,7 +545,7 @@
       "sub_id":"7",
       "alias":"graywool",
       "name":"gray wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"gray","quantity":1}
@@ -568,7 +556,7 @@
       "sub_id":"8",
       "alias":"lightgraywool",
       "name":"light-gray wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"lightgray","quantity":1}
@@ -579,7 +567,7 @@
       "sub_id":"9",
       "alias":"cyanwool",
       "name":"cyan wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"cyan","quantity":1}
@@ -590,7 +578,7 @@
       "sub_id":"10",
       "alias":"purplewool",
       "name":"purple wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"purple","quantity":1}
@@ -601,7 +589,7 @@
       "sub_id":"11",
       "alias":"bluewool",
       "name":"blue wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"blue","quantity":1}
@@ -612,7 +600,7 @@
       "sub_id":"12",
       "alias":"brownwool",
       "name":"brown wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"brown","quantity":1}
@@ -623,7 +611,7 @@
       "sub_id":"13",
       "alias":"greenwool",
       "name":"green wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"green","quantity":1}
@@ -634,7 +622,7 @@
       "sub_id":"14",
       "alias":"redwool",
       "name":"red wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"red","quantity":1}
@@ -645,7 +633,7 @@
       "sub_id":"15",
       "alias":"blackwool",
       "name":"black wool",
-      "quantity":1,
+      "quantity":1000,
       "recipe":[
 		{"alias":"wool","quantity":1},
 		{"alias":"inksac","quantity":1}
@@ -1052,18 +1040,6 @@
       "quantity":1,
       "recipe":[
 		{"alias":"woodplanks","quantity":2}
-      ]
-   },
-   "redstoneore":{
-      "item_id":"73",
-      "sub_id":"0",
-      "sell":"50",
-      "buy":"30",
-      "alias":"redstoneore",
-      "name":"redstone ore",
-      "quantity":1,
-      "recipe":[
-
       ]
    },
    "redstonetorch":{
@@ -2252,7 +2228,7 @@
       "name":"water bucket",
       "quantity":1,
       "recipe":[
-	  	{"alias":"ironingot", "quantity": 6}
+	  	{"alias":"bucket", "quantity": 1}
       ]
    },
    "lavabucket":{
@@ -2262,7 +2238,7 @@
       "name":"lava bucket",
       "quantity":1,
       "recipe":[
-	  	{"alias":"ironingot", "quantity": 6}
+	  	{"alias":"bucket", "quantity": 1}
       ]
    },
    "minecart":{
