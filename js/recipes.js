@@ -477,178 +477,177 @@
    "orangewool":{
       "item_id":"35",
       "sub_id":"1",
+	  "sell":2,
+	  "buy":1,
       "alias":"orangewool",
       "name":"orange wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"orange","quantity":1}
       ]
    },
    "magentawool":{
       "item_id":"35",
       "sub_id":"2",
+	  "sell":2,
+	  "buy":1,
       "alias":"magentawool",
       "name":"magenta wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"magenta","quantity":1}
       ]
    },
    "lightbluewool":{
       "item_id":"35",
       "sub_id":"3",
+	  "sell":2,
+	  "buy":1,
       "alias":"lightbluewool",
       "name":"light-blue wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"lightblue","quantity":1}
       ]
    },
    "yellowwool":{
       "item_id":"35",
       "sub_id":"4",
+	  "sell":2,
+	  "buy":1,
       "alias":"yellowwool",
       "name":"yellow wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"yellow","quantity":1}
       ]
    },
    "lightgreenwool":{
       "item_id":"35",
       "sub_id":"5",
+	  "sell":2,
+	  "buy":1,
       "alias":"lightgreenwool",
       "name":"light-green wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"lime","quantity":1}
       ]
    },
    "pinkwool":{
       "item_id":"35",
       "sub_id":"6",
+	  "sell":2,
+	  "buy":1,
       "alias":"pinkwool",
       "name":"pink wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"pink","quantity":1}
       ]
    },
    "graywool":{
       "item_id":"35",
       "sub_id":"7",
+	  "sell":2,
+	  "buy":1,
       "alias":"graywool",
       "name":"gray wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"gray","quantity":1}
       ]
    },
    "lightgraywool":{
       "item_id":"35",
       "sub_id":"8",
+	  "sell":2,
+	  "buy":1,
       "alias":"lightgraywool",
       "name":"light-gray wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"lightgray","quantity":1}
       ]
    },
    "cyanwool":{
       "item_id":"35",
       "sub_id":"9",
+	  "sell":2,
+	  "buy":1,
       "alias":"cyanwool",
       "name":"cyan wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"cyan","quantity":1}
       ]
    },
    "purplewool":{
       "item_id":"35",
       "sub_id":"10",
+	  "sell":2,
+	  "buy":1,
       "alias":"purplewool",
       "name":"purple wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"purple","quantity":1}
       ]
    },
    "bluewool":{
       "item_id":"35",
       "sub_id":"11",
+	  "sell":2,
+	  "buy":1,
       "alias":"bluewool",
       "name":"blue wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"blue","quantity":1}
       ]
    },
    "brownwool":{
       "item_id":"35",
       "sub_id":"12",
+	  "sell":2,
+	  "buy":1,
       "alias":"brownwool",
       "name":"brown wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"brown","quantity":1}
       ]
    },
    "greenwool":{
       "item_id":"35",
       "sub_id":"13",
+	  "sell":2,
+	  "buy":1,
       "alias":"greenwool",
       "name":"green wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"green","quantity":1}
       ]
    },
    "redwool":{
       "item_id":"35",
       "sub_id":"14",
+	  "sell":2,
+	  "buy":1,
       "alias":"redwool",
       "name":"red wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"red","quantity":1}
       ]
    },
    "blackwool":{
       "item_id":"35",
       "sub_id":"15",
+	  "sell":2,
+	  "buy":1,
       "alias":"blackwool",
       "name":"black wool",
-      "quantity":1000,
+      "quantity":1,
       "recipe":[
-		{"alias":"wool","quantity":1},
-		{"alias":"inksac","quantity":1}
       ]
    },
    "wool":{
       "item_id":"35",
       "sub_id":"0",
-      "sell":"0.625",
-      "buy":"0.3125",
+      "sell":2,
+	  "buy":1,
       "alias":"wool",
       "name":"wool",
       "quantity":1,
       "recipe":[
-
       ]
    },
    "yellowflower":{
