@@ -94,8 +94,8 @@ var CraftPricing = {
 			if (this._json.hasOwnProperty(item)){
 
 				var rsp_item = CraftPricing._json[item];
-				if(rsp_item.recipe.length == 0){
-					console.log(mats);
+				if( (rsp_item.recipe.length == 0 || rsp_item.allows_user_sale == 1) && rsp_item.allows_user_sale != 0){
+					console.log(rsp_item.alias);
 				}
 			}
 		}

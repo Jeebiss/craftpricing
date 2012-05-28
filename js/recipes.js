@@ -1,21 +1,21 @@
 {
    "stone":{
+      "allows_user_sale": 1,
       "item_id":"1",
       "sub_id":"0",
-      "sell":"1.875",
-      "buy":"1.5625",
       "alias":"stone",
       "name":"stone",
       "quantity":1,
       "recipe":[
-
+         {"alias":"cobble","quantity":1},
+         {"alias":"coal","quantity":0.125}
       ]
    },
    "grass":{
       "item_id":"2",
       "sub_id":"0",
-      "sell":"0.46875",
-      "buy":"0.3125",
+      "sell":"10",
+      "buy":".02",
       "alias":"grass",
       "name":"grass",
       "quantity":1,
@@ -26,8 +26,8 @@
    "dirt":{
       "item_id":"3",
       "sub_id":"0",
-      "sell":"0.46875",
-      "buy":"0.3125",
+      "sell":"1",
+      "buy":"0.01",
       "alias":"dirt",
       "name":"dirt",
       "quantity":1,
@@ -38,8 +38,8 @@
    "cobble":{
       "item_id":"4",
       "sub_id":"0",
-      "sell":"0.9375",
-      "buy":"0.78125",
+      "sell":"1",
+      "buy":"0.01",
       "alias":"cobble",
       "name":"cobble",
       "quantity":1,
@@ -88,10 +88,11 @@
       ]
    },
    "junglesapling":{
+      "allows_user_sale": 0,
       "item_id":"6",
       "sub_id":"3",
-      "sell":"10",
-      "buy":"2",
+      "sell":"5",
+      "buy":".10",
       "alias":"junglesapling",
       "name":"jungle sapling",
       "quantity":1,
@@ -100,10 +101,11 @@
       ]
    },
    "pinesapling":{
+      "allows_user_sale": 0,
       "item_id":"6",
       "sub_id":"1",
-      "sell":"10",
-      "buy":"2",
+      "sell":"5",
+      "buy":".10",
       "alias":"pinesapling",
       "name":"redwood sapling",
       "quantity":1,
@@ -112,10 +114,11 @@
       ]
    },
    "birchsapling":{
+      "allows_user_sale": 0,
       "item_id":"6",
       "sub_id":"2",
-      "sell":"10",
-      "buy":"2",
+      "sell":"5",
+      "buy":".10",
       "alias":"birchsapling",
       "name":"birch sapling",
       "quantity":1,
@@ -124,10 +127,11 @@
       ]
    },
    "sapling":{
+      "allows_user_sale": 0,
       "item_id":"6",
       "sub_id":"0",
-      "sell":"10",
-      "buy":"2",
+      "sell":"5",
+      "buy":".10",
       "alias":"sapling",
       "name":"sapling",
       "quantity":1,
@@ -138,8 +142,8 @@
    "sand":{
       "item_id":"12",
       "sub_id":"0",
-      "sell":"0.9375",
-      "buy":"0.78125",
+      "sell":"1",
+      "buy":"0.01",
       "alias":"sand",
       "name":"sand",
       "quantity":1,
@@ -150,8 +154,8 @@
    "gravel":{
       "item_id":"13",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.5",
+      "sell":".10",
+      "buy":"0.01",
       "alias":"gravel",
       "name":"gravel",
       "quantity":1,
@@ -162,8 +166,8 @@
    "goldore":{
       "item_id":"14",
       "sub_id":"0",
-      "sell":"240",
-      "buy":"200",
+      "sell":"100",
+      "buy":"20",
       "alias":"goldore",
       "name":"gold ore",
       "quantity":1,
@@ -174,8 +178,8 @@
    "ironore":{
       "item_id":"15",
       "sub_id":"0",
-      "sell":"60",
-      "buy":"50",
+      "sell":"40",
+      "buy":"6",
       "alias":"ironore",
       "name":"iron ore",
       "quantity":1,
@@ -186,8 +190,8 @@
    "redwoodlog":{
       "item_id":"17",
       "sub_id":"1",
-      "sell":"1",
-      "buy":".5",
+      "sell":"5",
+      "buy":".10",
       "alias":"redwoodlog",
       "name":"redwood",
       "quantity":1,
@@ -198,8 +202,8 @@
    "birchlog":{
       "item_id":"17",
       "sub_id":"2",
-      "sell":"1",
-      "buy":".5",
+      "sell":"5",
+      "buy":".10",
       "alias":"birchwood",
       "name":"birch wood",
       "quantity":1,
@@ -210,8 +214,8 @@
    "junglelog":{
       "item_id":"17",
       "sub_id":"3",
-      "sell":"1",
-      "buy":".5",
+      "sell":"5",
+      "buy":".10",
       "alias":"junglewood",
       "name":"jungle wood",
       "quantity":1,
@@ -222,8 +226,8 @@
    "log":{
       "item_id":"17",
       "sub_id":"0",
-      "sell":"1",
-      "buy":".5",
+      "sell":"5",
+      "buy":".10",
       "alias":"log",
       "name":"wood",
       "quantity":1,
@@ -232,10 +236,11 @@
       ]
    },
    "pineleaves":{
+      "allows_user_sale": 0,
       "item_id":"18",
       "sub_id":"5",
       "sell":"2",
-      "buy":"1",
+      "buy":".01",
       "alias":"pineleaves",
       "name":"redwood leaves",
       "quantity":1,
@@ -244,10 +249,11 @@
       ]
    },
    "birchleaves":{
+      "allows_user_sale": 0,
       "item_id":"18",
       "sub_id":"6",
       "sell":"2",
-      "buy":"1",
+      "buy":".01",
       "alias":"birchleaves",
       "name":"birchwood leaves",
       "quantity":1,
@@ -256,10 +262,11 @@
       ]
    },
    "jungleleaves":{
+      "allows_user_sale": 0,
       "item_id":"18",
       "sub_id":"7",
       "sell":"2",
-      "buy":"1",
+      "buy":".01",
       "alias":"jungleleaves",
       "name":"jungle leaves",
       "quantity":1,
@@ -268,10 +275,11 @@
       ]
    },
    "leaves":{
+      "allows_user_sale": 0,
       "item_id":"18",
       "sub_id":"4",
       "sell":"2",
-      "buy":"1",
+      "buy":".01",
       "alias":"leaves",
       "name":"leaves",
       "quantity":1,
@@ -280,10 +288,11 @@
       ]
    },
    "sponge":{
+      "allows_user_sale": 0,
       "item_id":"19",
       "sub_id":"0",
       "sell":"80",
-      "buy":"60",
+      "buy":"2",
       "alias":"sponge",
       "name":"sponge",
       "quantity":1,
@@ -302,6 +311,7 @@
       ]
    },
    "lapisblock":{
+      "allows_user_sale": 1,
       "item_id":"22",
       "sub_id":"0",
       "alias":"lapisblock",
@@ -324,6 +334,7 @@
       ]
    },
    "sandstone":{
+      "allows_user_sale": 1,
       "item_id":"24",
       "sub_id":"0",
       "alias":"sandstone",
@@ -334,10 +345,11 @@
       ]
    },
    "creepersandstone":{
+      "allows_user_sale": 0,
       "item_id":"24",
       "sub_id":"1",
       "sell":"3.72",
-      "buy":"3.12",
+      "buy":"1",
       "alias":"creepersandstone",
       "name":"creeper sandstone",
       "quantity":1,
@@ -402,10 +414,11 @@
       ]
    },
    "web":{
+      "allows_user_sale": 0,
       "item_id":"30",
       "sub_id":"0",
       "sell":"50",
-      "buy":"40",
+      "buy":"4",
       "alias":"web",
       "name":"web",
       "quantity":1,
@@ -414,6 +427,7 @@
       ]
    },
    "deadgrass":{
+      "allows_user_sale": 0,
       "item_id":"31",
       "sub_id":"0",
       "sell":"0.2",
@@ -426,6 +440,7 @@
       ]
    },
    "wildgrass":{
+      "allows_user_sale": 0,
       "item_id":"31",
       "sub_id":"1",
       "sell":"0.2",
@@ -438,6 +453,7 @@
       ]
    },
    "liveshrub":{
+      "allows_user_sale": 0,
       "item_id":"31",
       "sub_id":"2",
       "sell":"0.2",
@@ -450,6 +466,7 @@
       ]
    },
    "deadshrub":{
+      "allows_user_sale": 0,
       "item_id":"32",
       "sub_id":"0",
       "sell":"0.2",
@@ -475,9 +492,10 @@
       ]
    },
    "orangewool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"1",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"orangewool",
       "name":"orange wool",
@@ -486,9 +504,10 @@
       ]
    },
    "magentawool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"2",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"magentawool",
       "name":"magenta wool",
@@ -497,9 +516,10 @@
       ]
    },
    "lightbluewool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"3",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"lightbluewool",
       "name":"light-blue wool",
@@ -508,9 +528,10 @@
       ]
    },
    "yellowwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"4",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"yellowwool",
       "name":"yellow wool",
@@ -519,9 +540,10 @@
       ]
    },
    "lightgreenwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"5",
-	  "sell":2,
+	  "sell":20,
 	  "buy":1,
       "alias":"lightgreenwool",
       "name":"light-green wool",
@@ -530,9 +552,10 @@
       ]
    },
    "pinkwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"6",
-	  "sell":2,
+	  "sell":20,
 	  "buy":1,
       "alias":"pinkwool",
       "name":"pink wool",
@@ -541,9 +564,10 @@
       ]
    },
    "graywool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"7",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"graywool",
       "name":"gray wool",
@@ -552,9 +576,10 @@
       ]
    },
    "lightgraywool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"8",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"lightgraywool",
       "name":"light-gray wool",
@@ -563,9 +588,10 @@
       ]
    },
    "cyanwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"9",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"cyanwool",
       "name":"cyan wool",
@@ -574,9 +600,10 @@
       ]
    },
    "purplewool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"10",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"purplewool",
       "name":"purple wool",
@@ -585,9 +612,10 @@
       ]
    },
    "bluewool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"11",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"bluewool",
       "name":"blue wool",
@@ -596,9 +624,10 @@
       ]
    },
    "brownwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"12",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"brownwool",
       "name":"brown wool",
@@ -607,9 +636,10 @@
       ]
    },
    "greenwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"13",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"greenwool",
       "name":"green wool",
@@ -618,9 +648,10 @@
       ]
    },
    "redwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"14",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"redwool",
       "name":"red wool",
@@ -629,9 +660,10 @@
       ]
    },
    "blackwool":{
+      "allows_user_sale": 0,
       "item_id":"35",
       "sub_id":"15",
-	  "sell":2,
+	  "sell":5,
 	  "buy":1,
       "alias":"blackwool",
       "name":"black wool",
@@ -642,8 +674,8 @@
    "wool":{
       "item_id":"35",
       "sub_id":"0",
-      "sell":2,
-	  "buy":1,
+      "sell":5,
+	  "buy":".01",
       "alias":"wool",
       "name":"wool",
       "quantity":1,
@@ -653,8 +685,8 @@
    "yellowflower":{
       "item_id":"37",
       "sub_id":"0",
-      "sell":"0.3125",
-      "buy":"0.15625",
+      "sell":"4",
+      "buy":"0.15",
       "alias":"yellowflower",
       "name":"yellow flower",
       "quantity":1,
@@ -663,10 +695,11 @@
       ]
    },
    "redflower":{
+      "allows_user_sale": 0,
       "item_id":"38",
       "sub_id":"0",
-      "sell":"0.9375",
-      "buy":"0.625",
+      "sell":"6",
+      "buy":"0.20",
       "alias":"redflower",
       "name":"red flower",
       "quantity":1,
@@ -675,10 +708,11 @@
       ]
    },
    "brownmushroom":{
+      "allows_user_sale": 0,
       "item_id":"39",
       "sub_id":"0",
       "sell":"20",
-      "buy":"10",
+      "buy":"2",
       "alias":"brownmushroom",
       "name":"brown mushroom",
       "quantity":1,
@@ -687,10 +721,11 @@
       ]
    },
    "redmushroom":{
+      "allows_user_sale": 0,
       "item_id":"40",
       "sub_id":"0",
-      "sell":"20",
-      "buy":"10",
+      "sell":"30",
+      "buy":"4",
       "alias":"redmushroom",
       "name":"red mushroom",
       "quantity":1,
@@ -874,7 +909,7 @@
       "item_id":"48",
       "sub_id":"0",
       "sell":"30.125",
-      "buy":"2.5",
+      "buy":"2",
       "alias":"mossycobble",
       "name":"mossy cobblestone",
       "quantity":1,
@@ -883,10 +918,11 @@
       ]
    },
    "obsidian":{
+      "allows_user_sale": 0,
       "item_id":"49",
       "sub_id":"0",
       "sell":"80",
-      "buy":"60",
+      "buy":"16",
       "alias":"obsidian",
       "name":"obsidian",
       "quantity":1,
@@ -906,6 +942,7 @@
       ]
    },
    "spawner":{
+      "allows_user_sale": 0,
       "item_id":"52",
       "sub_id":"0",
       "sell":"20000",
@@ -958,10 +995,11 @@
       ]
    },
    "soil":{
+      "allows_user_sale": 0,
       "item_id":"60",
       "sub_id":"0",
-      "sell":"0.546875",
-      "buy":"0.390625",
+      "sell":"6",
+      "buy":"0.39",
       "alias":"soil",
       "name":"soil",
       "quantity":1,
@@ -1063,10 +1101,11 @@
       ]
    },
    "snowblock":{
+      "allows_user_sale": 0,
       "item_id":"80",
       "sub_id":"0",
       "sell":"8",
-      "buy":"4",
+      "buy":".01",
       "alias":"snowblock",
       "name":"snowblock",
       "quantity":1,
@@ -1077,8 +1116,8 @@
    "cactus":{
       "item_id":"81",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.666667",
+      "sell":"5",
+      "buy":"0.01",
       "alias":"cactus",
       "name":"cactus",
       "quantity":1,
@@ -1087,10 +1126,11 @@
       ]
    },
    "clayblock":{
+   	  "allows_user_sale": 0,
       "item_id":"82",
       "sub_id":"0",
       "sell":"40",
-      "buy":"32",
+      "buy":"2",
       "alias":"clayblock",
       "name":"clayblock",
       "quantity":1,
@@ -1123,7 +1163,7 @@
       "item_id":"86",
       "sub_id":"0",
       "sell":"5",
-      "buy":"2",
+      "buy":".01",
       "alias":"pumpkin",
       "name":"pumpkin",
       "quantity":1,
@@ -1135,7 +1175,7 @@
       "item_id":"87",
       "sub_id":"0",
       "sell":"4",
-      "buy":"3",
+      "buy":".01",
       "alias":"netherrack",
       "name":"netherrack",
       "quantity":1,
@@ -1147,7 +1187,7 @@
       "item_id":"88",
       "sub_id":"0",
       "sell":"6",
-      "buy":"5",
+      "buy":".01",
       "alias":"soulsand",
       "name":"soulsand",
       "quantity":1,
@@ -1187,6 +1227,7 @@
       ]
    },
    "silverfish":{
+      "allows_user_sale": 0,
       "item_id":"97",
       "sub_id":"0",
       "sell":"10000",
@@ -1199,10 +1240,11 @@
       ]
    },
    "mossystonebrick":{
+      "allows_user_sale": 0,
       "item_id":"98",
       "sub_id":"1",
-      "sell":"20",
-      "buy":"10",
+      "sell":"40",
+      "buy":"4",
       "alias":"mossystonebrick",
       "name":"mossy stonebrick",
       "quantity":1,
@@ -1211,10 +1253,11 @@
       ]
    },
    "crackedbrick":{
+      "allows_user_sale": 0,
       "item_id":"98",
       "sub_id":"2",
       "sell":"200",
-      "buy":"100",
+      "buy":"40",
       "alias":"crackedbrick",
       "name":"cracked stonebrick",
       "quantity":1,
@@ -1223,10 +1266,11 @@
       ]
    },
    "circlestonebrick":{
+      "allows_user_sale": 0,
       "item_id":"98",
       "sub_id":"3",
-      "sell":"1.75",
-      "buy":"0.75",
+      "sell":"20",
+      "buy":"0.10",
       "alias":"circlestonebrick",
       "name":"circle stone brick",
       "quantity":1,
@@ -1245,9 +1289,10 @@
       ]
    },
    "redmushroomcap":{
+      "allows_user_sale": 0,
       "item_id":"99",
       "sub_id":"0",
-      "sell":"0.5",
+      "sell":"8",
       "buy":"0.2",
       "alias":"redmushroomcap",
       "name":"red mushroom cap",
@@ -1257,9 +1302,10 @@
       ]
    },
    "brownmushroomcap":{
+      "allows_user_sale": 0,
       "item_id":"100",
       "sub_id":"0",
-      "sell":"0.5",
+      "sell":"8",
       "buy":"0.2",
       "alias":"brownmushroomcap",
       "name":"brown mushroom cap",
@@ -1289,10 +1335,11 @@
       ]
    },
    "melonblock":{
+      "allows_user_sale": 0,
       "item_id":"103",
       "sub_id":"0",
       "sell":"45",
-      "buy":"18",
+      "buy":".05",
       "alias":"melonblock",
       "name":"melon block",
       "quantity":1,
@@ -1301,10 +1348,11 @@
       ]
    },
    "vines":{
+      "allows_user_sale": 0,
       "item_id":"106",
       "sub_id":"0",
       "sell":"2",
-      "buy":"1",
+      "buy":".02",
       "alias":"vines",
       "name":"vines",
       "quantity":1,
@@ -1346,8 +1394,8 @@
    "mycelium":{
       "item_id":"110",
       "sub_id":"0",
-      "sell":"20",
-      "buy":"10",
+      "sell":"80",
+      "buy":".01",
       "alias":"mycelium",
       "name":"mycelium",
       "quantity":1,
@@ -1356,10 +1404,11 @@
       ]
    },
    "lilypad":{
+      "allows_user_sale": 0,
       "item_id":"111",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"3",
+      "sell":"6",
+      "buy":".02",
       "alias":"lilypad",
       "name":"lily pad",
       "quantity":1,
@@ -1370,8 +1419,8 @@
    "netherbrick":{
       "item_id":"112",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"3",
+      "sell":"20",
+      "buy":"2",
       "alias":"netherbrick",
       "name":"netherbrick",
       "quantity":1,
@@ -1402,8 +1451,8 @@
    "netherwart":{
       "item_id":"115",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"2.5",
+      "sell":"25",
+      "buy":".05",
       "alias":"netherwart",
       "name":"nether wart",
       "quantity":1,
@@ -1426,8 +1475,8 @@
    "endstone":{
       "item_id":"121",
       "sub_id":"0",
-      "sell":"0.9375",
-      "buy":"0.625",
+      "sell":"80",
+      "buy":"0.10",
       "alias":"endstone",
       "name":"end stone",
       "quantity":1,
@@ -1491,10 +1540,11 @@
       ]
    },
    "apple":{
+      "allows_user_sale": 0,
       "item_id":"260",
       "sub_id":"0",
-      "sell":"30",
-      "buy":"20",
+      "sell":"15",
+      "buy":".40",
       "alias":"apple",
       "name":"apple",
       "quantity":1,
@@ -1528,8 +1578,8 @@
    "coal":{
       "item_id":"263",
       "sub_id":"0",
-      "sell":"6",
-      "buy":"4",
+      "sell":"10",
+      "buy":".5",
       "alias":"coal",
       "name":"coal",
       "quantity":1,
@@ -1551,7 +1601,7 @@
       "item_id":"264",
       "sub_id":"0",
       "sell":"400",
-      "buy":"360",
+      "buy":"80",
       "alias":"diamond",
       "name":"diamond",
       "quantity":1,
@@ -1560,18 +1610,19 @@
       ]
    },
    "ironingot":{
+      "allows_user_sale": 1,
       "item_id":"265",
       "sub_id":"0",
-      "sell":"65",
-      "buy":"55",
       "alias":"ironingot",
       "name":"iron ingot",
       "quantity":1,
       "recipe":[
-
+         {"alias":"ironore","quantity":1},
+         {"alias":"coal","quantity":0.125}
       ]
    },
    "goldingot":{
+      "allows_user_sale": 1,
       "item_id":"266",
       "sub_id":"0",
       "alias":"goldingot",
@@ -1800,10 +1851,11 @@
       ]
    },
    "string":{
+      "allows_user_sale": 0,
       "item_id":"287",
       "sub_id":"0",
       "sell":"30",
-      "buy":"20",
+      "buy":".3",
       "alias":"string",
       "name":"string",
       "quantity":1,
@@ -1812,10 +1864,11 @@
       ]
    },
    "feather":{
+      "allows_user_sale": 0,
       "item_id":"288",
       "sub_id":"0",
       "sell":"40",
-      "buy":"30",
+      "buy":".3",
       "alias":"feather",
       "name":"feather",
       "quantity":1,
@@ -1824,10 +1877,11 @@
       ]
    },
    "gunpowder":{
+      "allows_user_sale": 0,
       "item_id":"289",
       "sub_id":"0",
       "sell":"100",
-      "buy":"80",
+      "buy":".5",
       "alias":"gunpowder",
       "name":"gunpowder",
       "quantity":1,
@@ -1893,8 +1947,8 @@
    "seeds":{
       "item_id":"295",
       "sub_id":"0",
-      "sell":"3",
-      "buy":"2",
+      "sell":"20",
+      "buy":".01",
       "alias":"seeds",
       "name":"seeds",
       "quantity":1,
@@ -1903,10 +1957,11 @@
       ]
    },
    "wheat":{
+      "allows_user_sale": 0,
       "item_id":"296",
       "sub_id":"0",
-      "sell":"4",
-      "buy":"2",
+      "sell":"3",
+      "buy":".01",
       "alias":"wheat",
       "name":"wheat",
       "quantity":1,
@@ -1965,10 +2020,11 @@
       ]
    },
    "chainhelmet":{
+      "allows_user_sale": 0,
       "item_id":"302",
       "sub_id":"0",
       "sell":"1300",
-      "buy":"1200",
+      "buy":"0",
       "alias":"chainhelmet",
       "name":"chainmail helmet",
       "quantity":1,
@@ -1977,10 +2033,11 @@
       ]
    },
    "chainchest":{
+      "allows_user_sale": 0,
       "item_id":"303",
       "sub_id":"0",
       "sell":"2080",
-      "buy":"1920",
+      "buy":"0",
       "alias":"chainchest",
       "name":"chainmail chestplate",
       "quantity":1,
@@ -1989,10 +2046,11 @@
       ]
    },
    "chainpants":{
+      "allows_user_sale": 0,
       "item_id":"304",
       "sub_id":"0",
       "sell":"1820",
-      "buy":"1680",
+      "buy":"0",
       "alias":"chainpants",
       "name":"chainmail leggings",
       "quantity":1,
@@ -2001,10 +2059,11 @@
       ]
    },
    "chainboots":{
+      "allows_user_sale": 0,
       "item_id":"305",
       "sub_id":"0",
       "sell":"1040",
-      "buy":"960",
+      "buy":"0",
       "alias":"chainboots",
       "name":"chainmail boots",
       "quantity":1,
@@ -2135,8 +2194,8 @@
    "flint":{
       "item_id":"318",
       "sub_id":"0",
-      "sell":"3",
-      "buy":"2",
+      "sell":"6",
+      "buy":".02",
       "alias":"flint",
       "name":"flint",
       "quantity":1,
@@ -2145,9 +2204,10 @@
       ]
    },
    "rawporkchop":{
+      "allows_user_sale": 0,
       "item_id":"319",
       "sub_id":"0",
-      "sell":"4",
+      "sell":"30",
       "buy":"3",
       "alias":"rawporkchop",
       "name":"raw porkchop",
@@ -2254,7 +2314,7 @@
       "item_id":"329",
       "sub_id":"0",
       "sell":"300",
-      "buy":"250",
+      "buy":"100",
       "alias":"saddle",
       "name":"saddle",
       "quantity":1,
@@ -2275,8 +2335,8 @@
    "redstone":{
       "item_id":"331",
       "sub_id":"0",
-      "sell":"12.5",
-      "buy":"7.5",
+      "sell":"18",
+      "buy":".3",
       "alias":"redstone",
       "name":"redstonewire",
       "quantity":1,
@@ -2285,10 +2345,11 @@
       ]
    },
    "snowball":{
+      "allows_user_sale": 0,
       "item_id":"332",
       "sub_id":"0",
-      "sell":"2",
-      "buy":"1",
+      "sell":"5",
+      "buy":".005",
       "alias":"snowball",
       "name":"snowball",
       "quantity":1,
@@ -2307,10 +2368,11 @@
       ]
    },
    "leather":{
+      "allows_user_sale": 0,
       "item_id":"334",
       "sub_id":"0",
       "sell":"40",
-      "buy":"20",
+      "buy":".3",
       "alias":"leather",
       "name":"leather",
       "quantity":1,
@@ -2343,7 +2405,7 @@
       "item_id":"337",
       "sub_id":"0",
       "sell":"10",
-      "buy":"8",
+      "buy":".4",
       "alias":"clayballs",
       "name":"clay balls",
       "quantity":1,
@@ -2354,8 +2416,8 @@
    "sugarcane":{
       "item_id":"338",
       "sub_id":"0",
-      "sell":"0.625",
-      "buy":"0.46875",
+      "sell":"20",
+      "buy":"0.01",
       "alias":"sugarcane",
       "name":"sugar cane",
       "quantity":1,
@@ -2384,10 +2446,11 @@
       ]
    },
    "slimeball":{
+      "allows_user_sale": 0,
       "item_id":"341",
       "sub_id":"0",
       "sell":"80",
-      "buy":"60",
+      "buy":"1",
       "alias":"slimeball",
       "name":"slimeball",
       "quantity":1,
@@ -2418,10 +2481,11 @@
       ]
    },
    "egg":{
+      "allows_user_sale": 0,
       "item_id":"344",
       "sub_id":"0",
-      "sell":"20",
-      "buy":"15",
+      "sell":"10",
+      "buy":".5",
       "alias":"egg",
       "name":"egg",
       "quantity":1,
@@ -2465,8 +2529,8 @@
    "glowstonedust":{
       "item_id":"348",
       "sub_id":"0",
-      "sell":"1.25",
-      "buy":"1",
+      "sell":"10",
+      "buy":".1",
       "alias":"glowstonedust",
       "name":"glowstone dust",
       "quantity":1,
@@ -2475,10 +2539,11 @@
       ]
    },
    "rawfish":{
+      "allows_user_sale": 0,
       "item_id":"349",
       "sub_id":"0",
-      "sell":"40",
-      "buy":"30",
+      "sell":"30",
+      "buy":"2",
       "alias":"rawfish",
       "name":"raw fish",
       "quantity":1,
@@ -2521,8 +2586,8 @@
    "brown":{
       "item_id":"351",
       "sub_id":"3",
-      "sell":"80",
-      "buy":"60",
+      "sell":"40",
+      "buy":".02",
       "alias":"brown",
       "name":"dye: cocoa beans",
       "quantity":1,
@@ -2533,8 +2598,8 @@
    "blue":{
       "item_id":"351",
       "sub_id":"4",
-      "sell":"70",
-      "buy":"60",
+      "sell":"20",
+      "buy":"2",
       "alias":"blue",
       "name":"dye: lapis lazuli",
       "quantity":1,
@@ -2595,7 +2660,6 @@
       "recipe":[
   		{"alias":"red", "quantity": 1},
 		{"alias":"bonemeal", "quantity": 1}
-
       ]
    },
    "lime":{
@@ -2628,7 +2692,6 @@
       "recipe":[
   		{"alias":"bonemeal", "quantity": 1},
 		{"alias":"blue", "quantity": 1}
-
       ]
    },
    "magenta":{
@@ -2666,8 +2729,8 @@
    "inksac":{
       "item_id":"351",
       "sub_id":"0",
-      "sell":"30",
-      "buy":"20",
+      "sell":"20",
+      "buy":".4",
       "alias":"inksac",
       "name":"ink sac",
       "quantity":1,
@@ -2678,8 +2741,8 @@
    "bone":{
       "item_id":"352",
       "sub_id":"0",
-      "sell":"30",
-      "buy":"20",
+      "sell":"20",
+      "buy":".02",
       "alias":"bone",
       "name":"bone",
       "quantity":1,
@@ -2766,10 +2829,11 @@
       ]
    },
    "melonslice":{
+      "allows_user_sale": 0,
       "item_id":"360",
       "sub_id":"0",
-      "sell":"5",
-      "buy":"2",
+      "sell":"15",
+      "buy":".2",
       "alias":"melonslice",
       "name":"melon",
       "quantity":1,
@@ -2798,9 +2862,10 @@
       ]
    },
    "rawbeef":{
+      "allows_user_sale": 0,
       "item_id":"363",
       "sub_id":"0",
-      "sell":"1.5",
+      "sell":"8",
       "buy":"1",
       "alias":"rawbeef",
       "name":"raw beef",
@@ -2821,10 +2886,11 @@
       ]
    },
    "rawchicken":{
+      "allows_user_sale": 0,
       "item_id":"365",
       "sub_id":"0",
-      "sell":"2",
-      "buy":"1.5",
+      "sell":"8",
+      "buy":".5",
       "alias":"rawchicken",
       "name":"raw chicken",
       "quantity":1,
@@ -2844,10 +2910,11 @@
       ]
    },
    "rottenflesh":{
+      "allows_user_sale": 0,
       "item_id":"367",
       "sub_id":"0",
       "sell":"10",
-      "buy":"5",
+      "buy":".01",
       "alias":"rottenflesh",
       "name":"rotten flesh",
       "quantity":1,
@@ -2858,8 +2925,8 @@
    "enderpearl":{
       "item_id":"368",
       "sub_id":"0",
-      "sell":"200",
-      "buy":"150",
+      "sell":"60",
+      "buy":"4",
       "alias":"enderpearl",
       "name":"ender pearl",
       "quantity":1,
@@ -2868,10 +2935,11 @@
       ]
    },
    "blazerod":{
+      "allows_user_sale": 0,
       "item_id":"369",
       "sub_id":"0",
       "sell":"50",
-      "buy":"40",
+      "buy":"5",
       "alias":"blazerod",
       "name":"blaze rod",
       "quantity":1,
@@ -2880,10 +2948,11 @@
       ]
    },
    "ghasttear":{
+      "allows_user_sale": 0,
       "item_id":"370",
       "sub_id":"0",
       "sell":"400",
-      "buy":"360",
+      "buy":"60",
       "alias":"ghasttear",
       "name":"ghast tear",
       "quantity":1,
@@ -2892,10 +2961,11 @@
       ]
    },
    "goldnugget":{
+      "allows_user_sale": 0,
       "item_id":"371",
       "sub_id":"0",
-      "sell":"28",
-      "buy":"26",
+      "sell":"20",
+      "buy":"6",
       "alias":"goldnugget",
       "name":"gold nugget",
       "quantity":1,
@@ -2907,7 +2977,7 @@
       "item_id":"372",
       "sub_id":"0",
       "sell":"5",
-      "buy":"2.5",
+      "buy":".01",
       "alias":"netherwartseeds",
       "name":"nether wart seeds",
       "quantity":1,
@@ -3233,10 +3303,11 @@
       ]
    },
    "spidereye":{
+      "allows_user_sale": 0,
       "item_id":"375",
       "sub_id":"0",
       "sell":"20",
-      "buy":"10",
+      "buy":".5",
       "alias":"spidereye",
       "name":"spider eye",
       "quantity":1,
@@ -3324,7 +3395,7 @@
       "item_id":"2256",
       "sub_id":"0",
       "sell":"30",
-      "buy":"20",
+      "buy":"2",
       "alias":"yellowdisc",
       "name":"gold music disc",
       "quantity":1,
@@ -3336,7 +3407,7 @@
       "item_id":"2257",
       "sub_id":"0",
       "sell":"30",
-      "buy":"20",
+      "buy":"2",
       "alias":"greendisc",
       "name":"green music disc",
       "quantity":1,
@@ -3345,10 +3416,11 @@
       ]
    },
    "blockdisc":{
+      "allows_user_sale": 0,
       "item_id":"2258",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"blockdisc",
       "name":"blocksrecord",
       "quantity":1,
@@ -3357,10 +3429,11 @@
       ]
    },
    "chirpdisc":{
+      "allows_user_sale": 0,
       "item_id":"2259",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"chirpdisc",
       "name":"chirprecord",
       "quantity":1,
@@ -3369,10 +3442,11 @@
       ]
    },
    "fardisc":{
+      "allows_user_sale": 0,
       "item_id":"2260",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"fardisc",
       "name":"farrecord",
       "quantity":1,
@@ -3381,10 +3455,11 @@
       ]
    },
    "malldisc":{
+      "allows_user_sale": 0,
       "item_id":"2261",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"malldisc",
       "name":"mallrecord",
       "quantity":1,
@@ -3393,10 +3468,11 @@
       ]
    },
    "mellodisc":{
+      "allows_user_sale": 0,
       "item_id":"2262",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"mellodisc",
       "name":"mellohirecord",
       "quantity":1,
@@ -3405,10 +3481,11 @@
       ]
    },
    "staldisc":{
+      "allows_user_sale": 0,
       "item_id":"2263",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"staldisc",
       "name":"stalrecord",
       "quantity":1,
@@ -3417,10 +3494,11 @@
       ]
    },
    "straddisc":{
+      "allows_user_sale": 0,
       "item_id":"2264",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"straddisc",
       "name":"stradrecord",
       "quantity":1,
@@ -3429,10 +3507,11 @@
       ]
    },
    "warddisc":{
+      "allows_user_sale": 0,
       "item_id":"2265",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"warddisc",
       "name":"wardrecord",
       "quantity":1,
@@ -3441,10 +3520,11 @@
       ]
    },
    "11disc":{
+      "allows_user_sale": 0,
       "item_id":"2266",
       "sub_id":"0",
       "sell":"1000",
-      "buy":"800",
+      "buy":"80",
       "alias":"11disc",
       "name":"11record",
       "quantity":1,

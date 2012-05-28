@@ -12,17 +12,25 @@
 		<div class="wrapper">
 
 			<h1>CraftPricing</h1>
-			<em>For Minecraft <strong>1.3</strong> - By viveleroi of dhmc.us</em>
+			<em>For Minecraft <strong>1.2.5+</strong> - By viveleroi of dhmc.us</em>
 
 			<p>A javascript-based pricing engine for all items in Minecraft.</p>
 
-			<p>By entering pricing information for all <em>base materials</em>, this program will automatically generate pricing data for all other items.</p>
+			<p>By entering costs for all <em>base materials</em>, this program will automatically generate prices for all other items - based on their crafting recipe.</p>
 
 			<p>To keep this application lightweight and easily distributable, the data is stored in raw JSON format, in the /js/recipe data.</p>
 
 			<p>The initial package comes with a set of <a href="test.html">unit tests</a> for both data structure and price calculations. Adjust the tests expected values and run to ensure
-				your data is complete. You can pass in your own callback formatter to describe the method of data output. An example formatter is provided, exporting
-				the data into MySQL <code>INSERT</code> queries.</p>
+				your data is complete.</p>
+				
+				
+			<h2>How to Use</h2>
+			
+			<p>You gotta know some Javascript.</p>
+			
+			<p>Open <code>generate.html</code> and modify the <code>generate</code> and <code>formatter</code> functions. Need the data as a CSV? Or XML? Or as an sql query for your shop plugin? Write your own formatter and it will be used.</p>
+				
+			<p>An example formatter is provided, exporting the data into MySQL <code>INSERT</code> queries.</p>
 
 			<p><a href="generate.html">Generate Pricing</a></p>
 
