@@ -88,7 +88,7 @@
       ]
    },
    "junglesapling":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"3",
       "sell":"5",
@@ -101,7 +101,7 @@
       ]
    },
    "pinesapling":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"1",
       "sell":"5",
@@ -114,7 +114,7 @@
       ]
    },
    "birchsapling":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"2",
       "sell":"5",
@@ -127,7 +127,7 @@
       ]
    },
    "sapling":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"0",
       "sell":"5",
@@ -236,7 +236,7 @@
       ]
    },
    "pineleaves":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"18",
       "sub_id":"5",
       "sell":"2",
@@ -249,7 +249,7 @@
       ]
    },
    "birchleaves":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"18",
       "sub_id":"6",
       "sell":"2",
@@ -262,7 +262,7 @@
       ]
    },
    "jungleleaves":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"18",
       "sub_id":"7",
       "sell":"2",
@@ -275,7 +275,7 @@
       ]
    },
    "leaves":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"18",
       "sub_id":"4",
       "sell":"2",
@@ -288,7 +288,7 @@
       ]
    },
    "sponge":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"19",
       "sub_id":"0",
       "sell":"80",
@@ -345,7 +345,7 @@
       ]
    },
    "creepersandstone":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"24",
       "sub_id":"1",
       "sell":"3.72",
@@ -414,7 +414,7 @@
       ]
    },
    "web":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"30",
       "sub_id":"0",
       "sell":"50",
@@ -427,7 +427,7 @@
       ]
    },
    "deadgrass":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"31",
       "sub_id":"0",
       "sell":"0.2",
@@ -440,7 +440,7 @@
       ]
    },
    "wildgrass":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"31",
       "sub_id":"1",
       "sell":"0.2",
@@ -453,7 +453,7 @@
       ]
    },
    "liveshrub":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"31",
       "sub_id":"2",
       "sell":"0.2",
@@ -466,7 +466,7 @@
       ]
    },
    "deadshrub":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"32",
       "sub_id":"0",
       "sell":"0.2",
@@ -492,7 +492,7 @@
       ]
    },
    "orangewool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"1",
 	  "sell":5,
@@ -504,7 +504,7 @@
       ]
    },
    "magentawool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"2",
 	  "sell":5,
@@ -516,7 +516,7 @@
       ]
    },
    "lightbluewool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"3",
 	  "sell":5,
@@ -528,7 +528,7 @@
       ]
    },
    "yellowwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"4",
 	  "sell":5,
@@ -540,7 +540,7 @@
       ]
    },
    "lightgreenwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"5",
 	  "sell":20,
@@ -552,7 +552,7 @@
       ]
    },
    "pinkwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"6",
 	  "sell":20,
@@ -564,7 +564,7 @@
       ]
    },
    "graywool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"7",
 	  "sell":5,
@@ -576,7 +576,7 @@
       ]
    },
    "lightgraywool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"8",
 	  "sell":5,
@@ -588,7 +588,7 @@
       ]
    },
    "cyanwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"9",
 	  "sell":5,
@@ -600,7 +600,7 @@
       ]
    },
    "purplewool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"10",
 	  "sell":5,
@@ -612,7 +612,7 @@
       ]
    },
    "bluewool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"11",
 	  "sell":5,
@@ -624,7 +624,7 @@
       ]
    },
    "brownwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"12",
 	  "sell":5,
@@ -636,7 +636,7 @@
       ]
    },
    "greenwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"13",
 	  "sell":5,
@@ -648,7 +648,7 @@
       ]
    },
    "redwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"14",
 	  "sell":5,
@@ -660,7 +660,7 @@
       ]
    },
    "blackwool":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"35",
       "sub_id":"15",
 	  "sell":5,
@@ -695,7 +695,7 @@
       ]
    },
    "redflower":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"38",
       "sub_id":"0",
       "sell":"6",
@@ -708,7 +708,7 @@
       ]
    },
    "brownmushroom":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"39",
       "sub_id":"0",
       "sell":"20",
@@ -721,7 +721,7 @@
       ]
    },
    "redmushroom":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"40",
       "sub_id":"0",
       "sell":"30",
@@ -958,7 +958,7 @@
       ]
    },
    "obsidian":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"49",
       "sub_id":"0",
       "sell":"80",
@@ -982,7 +982,7 @@
       ]
    },
    "spawner":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"52",
       "sub_id":"0",
       "sell":"20000",
@@ -1065,7 +1065,7 @@
       ]
    },
    "soil":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"60",
       "sub_id":"0",
       "sell":"6",
@@ -1181,7 +1181,7 @@
       ]
    },
    "snowblock":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"80",
       "sub_id":"0",
       "sell":"8",
@@ -1206,7 +1206,7 @@
       ]
    },
    "clayblock":{
-   	  "allows_user_sale": 0,
+   	  "allows_user_sale": 1,
       "item_id":"82",
       "sub_id":"0",
       "sell":"40",
@@ -1307,7 +1307,7 @@
       ]
    },
    "silverfish":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"97",
       "sub_id":"0",
       "sell":"10000",
@@ -1320,7 +1320,7 @@
       ]
    },
    "mossystonebrick":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"98",
       "sub_id":"1",
       "sell":"40",
@@ -1333,7 +1333,7 @@
       ]
    },
    "crackedbrick":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"98",
       "sub_id":"2",
       "sell":"200",
@@ -1346,7 +1346,7 @@
       ]
    },
    "circlestonebrick":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"98",
       "sub_id":"3",
       "sell":"20",
@@ -1369,7 +1369,7 @@
       ]
    },
    "redmushroomcap":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"99",
       "sub_id":"0",
       "sell":"8",
@@ -1382,7 +1382,7 @@
       ]
    },
    "brownmushroomcap":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"100",
       "sub_id":"0",
       "sell":"8",
@@ -1415,7 +1415,7 @@
       ]
    },
    "melonblock":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"103",
       "sub_id":"0",
       "sell":"45",
@@ -1428,7 +1428,7 @@
       ]
    },
    "vines":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"106",
       "sub_id":"0",
       "sell":"2",
@@ -1484,7 +1484,7 @@
       ]
    },
    "lilypad":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"111",
       "sub_id":"0",
       "sell":"6",
@@ -1620,7 +1620,7 @@
       ]
    },
    "apple":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"260",
       "sub_id":"0",
       "sell":"15",
@@ -1931,7 +1931,7 @@
       ]
    },
    "string":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"287",
       "sub_id":"0",
       "sell":"30",
@@ -1944,7 +1944,7 @@
       ]
    },
    "feather":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"288",
       "sub_id":"0",
       "sell":"40",
@@ -1957,7 +1957,7 @@
       ]
    },
    "gunpowder":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"289",
       "sub_id":"0",
       "sell":"100",
@@ -2037,7 +2037,7 @@
       ]
    },
    "wheat":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"296",
       "sub_id":"0",
       "sell":"3",
@@ -2100,7 +2100,7 @@
       ]
    },
    "chainhelmet":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"302",
       "sub_id":"0",
       "sell":"1300",
@@ -2113,7 +2113,7 @@
       ]
    },
    "chainchest":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"303",
       "sub_id":"0",
       "sell":"2080",
@@ -2126,7 +2126,7 @@
       ]
    },
    "chainpants":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"304",
       "sub_id":"0",
       "sell":"1820",
@@ -2139,7 +2139,7 @@
       ]
    },
    "chainboots":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"305",
       "sub_id":"0",
       "sell":"1040",
@@ -2284,7 +2284,7 @@
       ]
    },
    "rawporkchop":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"319",
       "sub_id":"0",
       "sell":"30",
@@ -2327,6 +2327,17 @@
       "recipe":[
 	  	{"alias":"apple", "quantity": 1},
 		{"alias":"goldnugget", "quantity": 8}
+      ]
+   },
+   "enchantedgoldapple":{
+      "item_id":"322",
+      "sub_id":"1",
+      "alias":"enchantedgoldapple",
+      "name":"enchanted golden apple",
+      "quantity":1,
+      "recipe":[
+      {"alias":"apple", "quantity": 1},
+      {"alias":"goldblock", "quantity": 8}
       ]
    },
    "sign":{
@@ -2425,7 +2436,7 @@
       ]
    },
    "snowball":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"332",
       "sub_id":"0",
       "sell":"5",
@@ -2448,7 +2459,7 @@
       ]
    },
    "leather":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"334",
       "sub_id":"0",
       "sell":"40",
@@ -2526,7 +2537,7 @@
       ]
    },
    "slimeball":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"341",
       "sub_id":"0",
       "sell":"80",
@@ -2561,7 +2572,7 @@
       ]
    },
    "egg":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"344",
       "sub_id":"0",
       "sell":"10",
@@ -2619,7 +2630,7 @@
       ]
    },
    "rawfish":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"349",
       "sub_id":"0",
       "sell":"30",
@@ -2909,7 +2920,7 @@
       ]
    },
    "melonslice":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"360",
       "sub_id":"0",
       "sell":"15",
@@ -2942,7 +2953,7 @@
       ]
    },
    "rawbeef":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"363",
       "sub_id":"0",
       "sell":"8",
@@ -2966,7 +2977,7 @@
       ]
    },
    "rawchicken":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"365",
       "sub_id":"0",
       "sell":"8",
@@ -2990,7 +3001,7 @@
       ]
    },
    "rottenflesh":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"367",
       "sub_id":"0",
       "sell":"10",
@@ -3015,7 +3026,7 @@
       ]
    },
    "blazerod":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"369",
       "sub_id":"0",
       "sell":"50",
@@ -3028,7 +3039,7 @@
       ]
    },
    "ghasttear":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"370",
       "sub_id":"0",
       "sell":"400",
@@ -3041,7 +3052,7 @@
       ]
    },
    "goldnugget":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"371",
       "sub_id":"0",
       "sell":"20",
@@ -3383,7 +3394,7 @@
       ]
    },
    "spidereye":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"375",
       "sub_id":"0",
       "sell":"20",
@@ -3496,7 +3507,7 @@
       ]
    },
    "blockdisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2258",
       "sub_id":"0",
       "sell":"1000",
@@ -3509,7 +3520,7 @@
       ]
    },
    "chirpdisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2259",
       "sub_id":"0",
       "sell":"1000",
@@ -3522,7 +3533,7 @@
       ]
    },
    "fardisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2260",
       "sub_id":"0",
       "sell":"1000",
@@ -3535,7 +3546,7 @@
       ]
    },
    "malldisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2261",
       "sub_id":"0",
       "sell":"1000",
@@ -3548,7 +3559,7 @@
       ]
    },
    "mellodisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2262",
       "sub_id":"0",
       "sell":"1000",
@@ -3561,7 +3572,7 @@
       ]
    },
    "staldisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2263",
       "sub_id":"0",
       "sell":"1000",
@@ -3574,7 +3585,7 @@
       ]
    },
    "straddisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2264",
       "sub_id":"0",
       "sell":"1000",
@@ -3587,7 +3598,7 @@
       ]
    },
    "warddisc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2265",
       "sub_id":"0",
       "sell":"1000",
@@ -3600,7 +3611,7 @@
       ]
    },
    "11disc":{
-      "allows_user_sale": 0,
+      "allows_user_sale": 1,
       "item_id":"2266",
       "sub_id":"0",
       "sell":"1000",
