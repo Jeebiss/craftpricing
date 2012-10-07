@@ -873,6 +873,46 @@
 		{"alias":"woodplanks","quantity":3}
       ]
    },
+   "oakwoodslab":{
+      "item_id":"126",
+      "sub_id":"0",
+      "alias":"oakwoodslab",
+      "name":"oakwood slab",
+      "quantity":6,
+      "recipe":[
+      {"alias":"oakwoodplanks","quantity":3}
+      ]
+   },
+   "redwoodslab":{
+      "item_id":"126",
+      "sub_id":"1",
+      "alias":"redwoodslab",
+      "name":"redwood slab",
+      "quantity":6,
+      "recipe":[
+      {"alias":"redwoodplanks","quantity":3}
+      ]
+   },
+   "birchwoodslab":{
+      "item_id":"126",
+      "sub_id":"2",
+      "alias":"birchwoodslab",
+      "name":"birchwood slab",
+      "quantity":6,
+      "recipe":[
+      {"alias":"birchwoodplanks","quantity":3}
+      ]
+   },
+   "junglewoodslab":{
+      "item_id":"126",
+      "sub_id":"3",
+      "alias":"junglewoodslab",
+      "name":"junglewood slab",
+      "quantity":6,
+      "recipe":[
+      {"alias":"junglewoodplanks","quantity":3}
+      ]
+   },
    "brickblock":{
       "item_id":"45",
       "sub_id":"0",
@@ -964,6 +1004,36 @@
 		{"alias":"woodplanks","quantity":6}
       ]
    },
+   "redwoodstairs":{
+      "item_id":"134",
+      "sub_id":"0",
+      "alias":"redwoodstairs",
+      "name":"redwood stairs",
+      "quantity":4,
+      "recipe":[
+      {"alias":"redwoodplanks","quantity":6}
+      ]
+   },
+   "birchwoodstairs":{
+      "item_id":"135",
+      "sub_id":"0",
+      "alias":"birchwoodstairs",
+      "name":"birchwood stairs",
+      "quantity":4,
+      "recipe":[
+      {"alias":"birchwoodplanks","quantity":6}
+      ]
+   },
+   "junglewoodstairs":{
+      "item_id":"136",
+      "sub_id":"0",
+      "alias":"junglewoodstairs",
+      "name":"junglewood stairs",
+      "quantity":4,
+      "recipe":[
+      {"alias":"junglewoodplanks","quantity":6}
+      ]
+   },
    "chest":{
       "item_id":"54",
       "sub_id":"0",
@@ -1046,6 +1116,16 @@
       "quantity":4,
       "recipe":[
 		{"alias":"cobble","quantity":6}
+      ]
+   },
+   "sandstonestairs":{
+      "item_id":"128",
+      "sub_id":"0",
+      "alias":"sandstonestairs",
+      "name":"sandstone stairs",
+      "quantity":4,
+      "recipe":[
+         {"alias":"sandstone","quantity":6}
       ]
    },
    "lever":{
@@ -3772,6 +3852,52 @@
       "recipe":[
          {"alias":"regen2", "quantity": 3},
          {"alias":"gunpowder", "quantity": 1}
+      ]
+   },
+   "bookandquill":{
+      "item_id":"386",
+      "sub_id":"0",
+      "alias":"bookandquill",
+      "name":"book and quill",
+      "quantity":1,
+      "recipe":[
+         {"alias":"book","quantity":1},
+         {"alias":"feather","quantity":1},
+         {"alias":"inksac","quantity":1}
+      ]
+   },
+   "enderchest":{
+      "item_id":"130",
+      "sub_id":"0",
+      "alias":"enderchest",
+      "name":"enderchest",
+      "quantity":1,
+      "recipe":[
+         {"alias":"obsidian","quantity":8},
+         {"alias":"eyeofender","quantity":1}
+      ]
+   },
+   "tripwirehook":{
+      "item_id":"130",
+      "sub_id":"0",
+      "alias":"tripwirehook",
+      "name":"tripwire hook",
+      "quantity":1,
+      "recipe":[
+         {"alias":"ironingot","quantity":1},
+         {"alias":"stick","quantity":1},
+         {"alias":"woodplanks","quantity":1}
+      ]
+   },
+   "ice":{
+      "item_id":"79",
+      "sub_id":"0",
+      "sell": 2,
+      "buy": "0.01",
+      "alias":"ice",
+      "name":"ice",
+      "quantity":1,
+      "recipe":[
       ]
    }
 }
