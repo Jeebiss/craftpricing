@@ -5,36 +5,36 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="js/craftpricing.js"></script>
 		<script>
-		
-		
+
+
 			// You may edit this generate function to print text, or call any
 			// functions you need to before the data formatter is called.
 			var generate = function( json ){
-			
+
 				// I'm using sql in my example, so I'll need some sql to clear the product db
 				// before re-adding new pricing.
 				document.write("TRUNCATE TABLE `craftys_products`;<br>");
-				
+
 				// Pass our recipes to CraftPricing along with the data formatter we'll use.
 				CraftPricing.generate(json, formatterMysql);  // Change formatterMysql to whatever function you create
 			}
-			
-			
+
+
 			// An example formatter, printing insert sql for mysql
 			var formatterMysql = function( item ){
-			
+
 				// You may not want this, but we've customized our data so only certain products may be sold back to the store.
 				var allows_user_sale = ((item.recipe.length == 0 || item.allows_user_sale == 1) && item.allows_user_sale != 0) ? 1 : 0;
-				
+
 				// The query
-				var sql = "INSERT INTO `craftys_products` (`item_id`, `sub_id`, `alias`, `item`, `buy_price`, `sell_price`, `allows_user_sale`) VALUES ("+item.item_id+","+item.sub_id+",'"+item.alias+"','"+item.name+"',"+item.buy+","+item.sell+","+allows_user_sale+");";
-				
+				var sql = "INSERT INTO `craftys_products` (`item_id`, `sub_id`, `alias`, `item`, `buy_price`, `sell_price`, `allows_user_sale`) VALUES ("+item.item_id+","+item.sub_id+",'"+item.alias+"','"+item.name+"',"+item.buy+","+item.sell+",1);";
+
 				// Make it look less ugly for humans
 				document.write(sql+"<br>");
-				
+
 			}
-		
-		
+
+
 			// Load the recipe data and pass to your formatter. You shouldn't need to change this.
 			$.getJSON('js/recipes.js', function(json){
 				generate(json);
