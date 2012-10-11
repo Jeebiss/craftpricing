@@ -3889,7 +3889,7 @@
       ]
    },
    "tripwirehook":{
-      "item_id":"130",
+      "item_id":"131",
       "sub_id":"0",
       "alias":"tripwirehook",
       "name":"tripwire hook",
