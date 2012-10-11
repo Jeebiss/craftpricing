@@ -4054,4 +4054,15 @@
    //    "recipe":[
    //    ]
    // },
+   // "anvil":{
+   //    "item_id":"145",
+   //    "sub_id":"0",
+   //    "alias":"anvil",
+   //    "name":"anvil",
+   //    "quantity":1,
+   //    "recipe":[
+   //       {"alias":"ironblock","quantity":6},
+   //       {"alias":"ironingot","quantity":1}
+   //    ]
+   // },
 }
