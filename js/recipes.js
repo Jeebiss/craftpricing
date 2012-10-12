@@ -1,6 +1,5 @@
 {
    "stone":{
-      "allows_user_sale": 1,
       "item_id":"1",
       "sub_id":"0",
       "alias":"stone",
@@ -14,8 +13,8 @@
    "grass":{
       "item_id":"2",
       "sub_id":"0",
-      "sell":"10",
-      "buy":".02",
+      "sell":"5",
+      "buy":"2",
       "alias":"grass",
       "name":"grass",
       "quantity":1,
@@ -26,8 +25,8 @@
    "dirt":{
       "item_id":"3",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.01",
+      "sell":".5",
+      "buy":".1",
       "alias":"dirt",
       "name":"dirt",
       "quantity":1,
@@ -38,8 +37,8 @@
    "cobble":{
       "item_id":"4",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.01",
+      "sell":".5",
+      "buy":".10",
       "alias":"cobble",
       "name":"cobble",
       "quantity":1,
@@ -88,11 +87,10 @@
       ]
    },
    "junglesapling":{
-      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"3",
       "sell":"5",
-      "buy":".10",
+      "buy":"2.5",
       "alias":"junglesapling",
       "name":"jungle sapling",
       "quantity":1,
@@ -101,11 +99,10 @@
       ]
    },
    "pinesapling":{
-      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"1",
       "sell":"5",
-      "buy":".10",
+      "buy":"2.5",
       "alias":"pinesapling",
       "name":"redwood sapling",
       "quantity":1,
@@ -114,11 +111,10 @@
       ]
    },
    "birchsapling":{
-      "allows_user_sale": 1,
       "item_id":"6",
       "sub_id":"2",
       "sell":"5",
-      "buy":".10",
+      "buy":"2.5",
       "alias":"birchsapling",
       "name":"birch sapling",
       "quantity":1,
@@ -131,7 +127,7 @@
       "item_id":"6",
       "sub_id":"0",
       "sell":"5",
-      "buy":".10",
+      "buy":"2.5",
       "alias":"sapling",
       "name":"sapling",
       "quantity":1,
@@ -142,8 +138,8 @@
    "sand":{
       "item_id":"12",
       "sub_id":"0",
-      "sell":"1",
-      "buy":"0.01",
+      "sell":".5",
+      "buy":".10",
       "alias":"sand",
       "name":"sand",
       "quantity":1,
@@ -154,8 +150,8 @@
    "gravel":{
       "item_id":"13",
       "sub_id":"0",
-      "sell":".10",
-      "buy":"0.01",
+      "sell":".20",
+      "buy":"0.10",
       "alias":"gravel",
       "name":"gravel",
       "quantity":1,
@@ -167,7 +163,7 @@
       "item_id":"14",
       "sub_id":"0",
       "sell":"100",
-      "buy":"20",
+      "buy":"60",
       "alias":"goldore",
       "name":"gold ore",
       "quantity":1,
@@ -191,7 +187,7 @@
       "item_id":"17",
       "sub_id":"1",
       "sell":"5",
-      "buy":".10",
+      "buy":"1",
       "alias":"redwoodlog",
       "name":"redwood",
       "quantity":1,
@@ -203,7 +199,7 @@
       "item_id":"17",
       "sub_id":"2",
       "sell":"5",
-      "buy":".10",
+      "buy":"1",
       "alias":"birchwood",
       "name":"birch wood",
       "quantity":1,
@@ -215,7 +211,7 @@
       "item_id":"17",
       "sub_id":"3",
       "sell":"5",
-      "buy":".10",
+      "buy":"1",
       "alias":"junglewood",
       "name":"jungle wood",
       "quantity":1,
@@ -227,7 +223,7 @@
       "item_id":"17",
       "sub_id":"0",
       "sell":"5",
-      "buy":".10",
+      "buy":"1",
       "alias":"log",
       "name":"wood",
       "quantity":1,
@@ -240,7 +236,7 @@
       "item_id":"18",
       "sub_id":"5",
       "sell":"2",
-      "buy":".01",
+      "buy":".10",
       "alias":"pineleaves",
       "name":"redwood leaves",
       "quantity":1,
@@ -253,7 +249,7 @@
       "item_id":"18",
       "sub_id":"6",
       "sell":"2",
-      "buy":".01",
+      "buy":".10",
       "alias":"birchleaves",
       "name":"birchwood leaves",
       "quantity":1,
@@ -266,7 +262,7 @@
       "item_id":"18",
       "sub_id":"7",
       "sell":"2",
-      "buy":".01",
+      "buy":".10",
       "alias":"jungleleaves",
       "name":"jungle leaves",
       "quantity":1,
@@ -279,7 +275,7 @@
       "item_id":"18",
       "sub_id":"4",
       "sell":"2",
-      "buy":".01",
+      "buy":".10",
       "alias":"leaves",
       "name":"leaves",
       "quantity":1,
@@ -675,7 +671,7 @@
       "item_id":"35",
       "sub_id":"0",
       "sell":5,
-	  "buy":".01",
+	  "buy":".10",
       "alias":"wool",
       "name":"wool",
       "quantity":1,
@@ -1185,7 +1181,7 @@
       "item_id":"80",
       "sub_id":"0",
       "sell":"8",
-      "buy":".01",
+      "buy":".10",
       "alias":"snowblock",
       "name":"snowblock",
       "quantity":1,
@@ -1243,7 +1239,7 @@
       "item_id":"86",
       "sub_id":"0",
       "sell":"5",
-      "buy":".01",
+      "buy":".10",
       "alias":"pumpkin",
       "name":"pumpkin",
       "quantity":1,
@@ -1255,7 +1251,7 @@
       "item_id":"87",
       "sub_id":"0",
       "sell":"4",
-      "buy":".01",
+      "buy":".10",
       "alias":"netherrack",
       "name":"netherrack",
       "quantity":1,
@@ -1267,7 +1263,7 @@
       "item_id":"88",
       "sub_id":"0",
       "sell":"6",
-      "buy":".01",
+      "buy":".10",
       "alias":"soulsand",
       "name":"soulsand",
       "quantity":1,
@@ -1475,7 +1471,7 @@
       "item_id":"110",
       "sub_id":"0",
       "sell":"80",
-      "buy":".01",
+      "buy":".10",
       "alias":"mycelium",
       "name":"mycelium",
       "quantity":1,
@@ -2028,7 +2024,7 @@
       "item_id":"295",
       "sub_id":"0",
       "sell":"20",
-      "buy":".01",
+      "buy":".10",
       "alias":"seeds",
       "name":"seeds",
       "quantity":1,
@@ -2041,7 +2037,7 @@
       "item_id":"296",
       "sub_id":"0",
       "sell":"3",
-      "buy":".01",
+      "buy":".10",
       "alias":"wheat",
       "name":"wheat",
       "quantity":1,
@@ -3005,7 +3001,7 @@
       "item_id":"367",
       "sub_id":"0",
       "sell":"10",
-      "buy":".01",
+      "buy":".10",
       "alias":"rottenflesh",
       "name":"rotten flesh",
       "quantity":1,
@@ -3068,7 +3064,7 @@
       "item_id":"372",
       "sub_id":"0",
       "sell":"5",
-      "buy":".01",
+      "buy":".10",
       "alias":"netherwartseeds",
       "name":"nether wart seeds",
       "quantity":1,
@@ -3911,158 +3907,4 @@
       "recipe":[
       ]
    }
-   // "commandblock":{
-   //    "item_id":"137",
-   //    "sub_id":"0",
-   //    "alias":"commandblock",
-   //    "name":"command block",
-   //    "quantity":1,
-   //    "recipe":[
-   //    ]
-   // },
-   // "beacon":{
-   //    "item_id":"138",
-   //    "sub_id":"0",
-   //    "alias":"beacon",
-   //    "name":"beacon",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"glass","quantity":5},
-   //       {"alias":"netherstar","quantity":1},
-   //       {"alias":"obsidian","quantity":3}
-   //    ]
-   // },
-   // "carrot":{
-   //    "item_id":"391",
-   //    "sub_id":"0",
-   //    "alias":"carrot",
-   //    "name":"carrot",
-   //    "quantity":1,
-   //    "recipe":[
-   //    ]
-   // },
-   // "potato":{
-   //    "item_id":"391",
-   //    "sub_id":"0",
-   //    "alias":"potato",
-   //    "name":"potato",
-   //    "quantity":1,
-   //    "recipe":[
-   //    ]
-   // },
-   // "poisonouspotato":{
-   //    "item_id":"394",
-   //    "sub_id":"0",
-   //    "alias":"poisonouspotato",
-   //    "name":"poisonouspotato",
-   //    "quantity":1,
-   //    "recipe":[
-   //    ]
-   // },
-   // "bakedpotato":{
-   //    "item_id":"393",
-   //    "sub_id":"0",
-   //    "alias":"bakedpotato",
-   //    "name":"baked potato",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"potato","quantity":1},
-   //       {"alias":"coal","quantity":.125}
-   //    ]
-   // },
-   // "carrotonastick":{
-   //    "item_id":"398",
-   //    "sub_id":"0",
-   //    "alias":"carrotonastick",
-   //    "name":"carrot on a stick",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"fishingrod","quantity":1},
-   //       {"alias":"carrot","quantity":1}
-   //    ]
-   // },
-   // "itemframe":{
-   //    "item_id":"389",
-   //    "sub_id":"0",
-   //    "alias":"itemframe",
-   //    "name":"item frame",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"stick","quantity":8},
-   //       {"alias":"leather","quantity":1}
-   //    ]
-   // },
-   // "cobblewall":{
-   //    "item_id":"139",
-   //    "sub_id":"0",
-   //    "alias":"cobblewall",
-   //    "name":"cobble wall",
-   //    "quantity":6,
-   //    "recipe":[
-   //       {"alias":"cobble","quantity":6}
-   //    ]
-   // },
-   // "mossycobblewall":{
-   //    "item_id":"389", ?
-   //    "sub_id":"0",
-   //    "alias":"mossycobblewall",
-   //    "name":"mossy cobble wall",
-   //    "quantity":6,
-   //    "recipe":[
-   //       {"alias":"mossycobble","quantity":6}
-   //    ]
-   // },
-   // "flowerpot":{
-   //    "item_id":"390",
-   //    "sub_id":"0",
-   //    "alias":"flowerpot",
-   //    "name":"flower pot",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"claybrick","quantity":3}
-   //    ]
-   // },
-   // "goldencarrot":{
-   //    "item_id":"391",
-   //    "sub_id":"0",
-   //    "alias":"goldencarrot",
-   //    "name":"golden carrot",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"carrot","quantity":1},
-   //       {"alias":"goldnugget","quantity":8}
-   //    ]
-   // },
-   // "pumpkinpie":{
-   //    "item_id":"400",
-   //    "sub_id":"0",
-   //    "alias":"pumpkinpie",
-   //    "name":"pumpkin pie",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"pumpkin","quantity":1},
-   //       {"alias":"egg","quantity":1},
-   //       {"alias":"sugar","quantity":1}
-   //    ]
-   // },
-   // "netherstar":{
-   //    "item_id":"138",
-   //    "sub_id":"0",
-   //    "alias":"netherstar",
-   //    "name":"netherstar",
-   //    "quantity":1,
-   //    "recipe":[
-   //    ]
-   // },
-   // "anvil":{
-   //    "item_id":"145",
-   //    "sub_id":"0",
-   //    "alias":"anvil",
-   //    "name":"anvil",
-   //    "quantity":1,
-   //    "recipe":[
-   //       {"alias":"ironblock","quantity":6},
-   //       {"alias":"ironingot","quantity":1}
-   //    ]
-   // },
 }
