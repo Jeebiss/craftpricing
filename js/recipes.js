@@ -13,7 +13,7 @@
    "grass":{
       "item_id":"2",
       "sub_id":"0",
-      "sell":"5",
+      "sell":"2",
       "buy":"2",
       "alias":"grass",
       "name":"grass",
@@ -37,7 +37,7 @@
    "cobble":{
       "item_id":"4",
       "sub_id":"0",
-      "sell":".5",
+      "sell":".3",
       "buy":".10",
       "alias":"cobble",
       "name":"cobble",
@@ -303,7 +303,8 @@
       "name":"glass",
       "quantity":1,
       "recipe":[
-      	{"alias":"sand","quantity":1}
+      	{"alias":"sand","quantity":1},
+		{"alias":"coal", "quantity": 0.125}
       ]
    },
    "lapisblock":{
@@ -3051,7 +3052,7 @@
       "allows_user_sale": 1,
       "item_id":"371",
       "sub_id":"0",
-      "sell":"20",
+      "sell":"11",
       "buy":"6",
       "alias":"goldnugget",
       "name":"gold nugget",
@@ -3481,7 +3482,7 @@
    "yellowdisc":{
       "item_id":"2256",
       "sub_id":"0",
-      "sell":"30",
+      "sell":"200",
       "buy":"2",
       "alias":"yellowdisc",
       "name":"gold music disc",
@@ -3493,7 +3494,7 @@
    "greendisc":{
       "item_id":"2257",
       "sub_id":"0",
-      "sell":"30",
+      "sell":"200",
       "buy":"2",
       "alias":"greendisc",
       "name":"green music disc",
