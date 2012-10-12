@@ -12,10 +12,9 @@
 		
 		?>
 		
-		<!--TRUNCATE TABLE `craftys_products`;<br>-->
+		TRUNCATE TABLE `craftys_products`;<br>
 		<?php if($items): foreach($items as $item): ?>
-		<?= $item['alias'] ?>: Buy: <strong><?= $item['buy'] ?></strong> - Sell: <strong><?= $item['sell'] ?></strong><br>
-		<!--INSERT INTO `craftys_products` (`item_id`, `sub_id`, `alias`, `item`, `buy_price`, `sell_price`, `allows_user_sale`) VALUES ("<?= $item['item_id'] ?>","<?= $item['sub_id'] ?>",'"<?= $item['alias'] ?>"','"<?= $item['name'] ?>"',<?= $item['buy'] ?>,<?= $item['sell'] ?>,1);<br>-->
+		INSERT INTO `craftys_products` (`item_id`, `sub_id`, `alias`, `item`, `buy_price`, `sell_price`, `allows_user_sale`) VALUES ("<?= $item['item_id'] ?>","<?= $item['sub_id'] ?>",'"<?= $item['alias'] ?>"','"<?= $item['name'] ?>"',<?= $item['buy'] ?>,<?= $item['sell'] ?>,1);<br>
 		<?php endforeach; endif; ?>
 
 	</body>
