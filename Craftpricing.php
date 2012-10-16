@@ -6,22 +6,22 @@
  * @author botskonet
  */
 class Craftpricing {
-	
-	
+
+
 	protected $_json = false;
-	
-	
+
+
 	/**
-	 * 
+	 *
 	 */
 	public function __construct() {
 		$_jsonfile = file_get_contents( dirname(__FILE__) . '/js/recipes.js' );
 		$this->_json = json_decode($_jsonfile, true);
 	}
-	
-	
+
+
 	/**
-	 * 
+	 *
 	 */
 	public function generate(){
 		$allitems = array();
@@ -33,10 +33,10 @@ class Craftpricing {
 		}
 		return $allitems;
 	}
-	
-	
+
+
 	/**
-	 * 
+	 *
 	 */
 	protected function getItem( $alias ){
 		$item = $this->_json[$alias];
@@ -65,7 +65,7 @@ class Craftpricing {
 				$this->_json[$alias]['sell'] = $item['sell'];
 			} else {
 				// Override all buy prices that are built in
-				if(strpos($item['name'], 'dye') === false){
+				if(strpos($item['name'], 'wool') === false){
 					$item['buy'] = (float)($item['sell'] * .35);
 				}
 			}
