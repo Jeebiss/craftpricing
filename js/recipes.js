@@ -804,8 +804,9 @@
       "item_id":"43",
       "sub_id":"6",
       "sell": 2,
-      "alias":"stoneslab",
-      "name":"stoneslab",
+      "buy": ".5",
+      "alias":"dstoneslab",
+      "name":"dstoneslab",
       "quantity":1,
       "recipe":[
       ]
@@ -2863,7 +2864,6 @@
       "recipe":[
 	  	{"alias":"egg", "quantity": 1},
 		{"alias":"wheat", "quantity": 3},
-		{"alias":"milkbucket", "quantity": 3},
 		{"alias":"sugar", "quantity": 2}
       ]
    },
